@@ -1,0 +1,264 @@
+{
+    "exit": "ゲームを終了しました。",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "ゲームを開始",
+                "description": "冒険を始めよう"
+            },
+            "settings": {
+                "label": "設定",
+                "description": "設定を調整する"
+            },
+            "credits": {
+                "label": "クレジット",
+                "description": "チームを見る"
+            },
+            "store": {
+                "label": "ストア",
+                "description": "ゲームマーケット"
+            },
+            "quit": {
+                "label": "ゲームを終了",
+                "description": "さようなら!"
+            }
+        },
+        "register": {
+            "title": "キャラクター登録",
+            "description": "登録情報を入力してください。",
+            "firstname": {
+                "label": "名",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "姓",
+                "placeholder": "Doe"
+            },
+            "dob": "生年月日",
+            "gender": {
+                "label": "性別",
+                "placeholder": "性別を選択",
+                "sex": {
+                    "male": "男性",
+                    "female": "女性"
+                }
+            },
+            "height": "身長",
+            "backstory": {
+                "label": "バックストーリー",
+                "placeholder": "キャラクターの背景を書いてください..."
+            },
+            "nationality": {
+                "label": "国籍",
+                "placeholder": "国籍を選択"
+            },
+            "submit": "キャラクター作成"
+        },
+        "delete": {
+            "title": "キャラクター削除",
+            "description": "このキャラクターを削除してもよろしいですか？この操作は取り消せません。",
+            "confirm": "キャラクター削除",
+            "cancel": "キャンセル"
+        },
+        "zodiacSigns": {
+            "aries": "牡羊座",
+            "taurus": "牡牛座",
+            "gemini": "双子座",
+            "cancer": "蟹座",
+            "leo": "獅子座",
+            "virgo": "乙女座",
+            "libra": "天秤座",
+            "scorpio": "蠍座",
+            "sagittarius": "射手座",
+            "capricorn": "山羊座",
+            "aquarius": "水瓶座",
+            "pisces": "魚座"
+        },
+        "settings": {
+            "title": "設定",
+            "tabs": {
+                "general": "一般設定",
+                "character": "キャラクター設定",
+                "weather": "天候設定",
+                "purchases": "購入履歴",
+                "reset": "設定リセット"
+            },
+            "general": {
+                "title": "一般設定",
+                "description": "基本設定を調整します。",
+                "fps_mode": {
+                    "label": "FPSモード",
+                    "description": "パフォーマンス向上のため、ブラー効果と天候パーティクルを無効にします。"
+                },
+                "cinematic_mode": {
+                    "label": "シネマティックモード",
+                    "description": "画面の上下にシネマティックな黒帯を追加します。"
+                },
+                "cam_distance": {
+                    "label": "カメラ距離",
+                    "description": "キャラクターからのカメラ距離を調整します。",
+                    "placeholder": "選択",
+                    "selection": {
+                        "close": "近い",
+                        "far": "遠い"
+                    }
+                },
+                "filter": {
+                    "label": "フィルター",
+                    "description": "画面に視覚フィルターを適用します。",
+                    "placeholder": "選択"
+                }
+            },
+            "weather": {
+                "title": "天候設定",
+                "description": "ゲーム内の時間と天候をカスタマイズします。",
+                "clock": {
+                    "label": "時計",
+                    "description": "ゲーム内の時間を設定します。"
+                },
+                "weather_type": {
+                    "label": "天候タイプ",
+                    "description": "お好みの天候を選択してください。",
+                    "placeholder": "選択",
+                    "selection": {
+                        "clear": "快晴",
+                        "extrasunny": "晴天",
+                        "clouds": "曇り",
+                        "overcast": "本曇り",
+                        "rain": "雨",
+                        "thunder": "雷雨",
+                        "smog": "スモッグ",
+                        "fog": "霧",
+                        "xmas": "クリスマス",
+                        "snowlight": "小雪",
+                        "blizzard": "吹雪",
+                        "snow": "雪",
+                        "neutral": "ニュートラル"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "購入履歴",
+                "description": "すべての取引履歴を表示します。",
+                "redeem_title": "コードを引き換える",
+                "input_placeholder": "ここにコードを入力...",
+                "submit": "引き換える",
+                "checking": "確認中...",
+                "no_history": "購入履歴はありません。",
+                "table": {
+                    "product": "製品",
+                    "date": "日付",
+                    "status": "ステータス"
+                },
+                "status": {
+                    "completed": "完了",
+                    "pending": "保留中",
+                    "refunded": "返金済み"
+                }
+            },
+            "character": {
+                "title": "キャラクター設定",
+                "description": "外見と設定をカスタマイズします。",
+                "music": {
+                    "title": "ミュージックプレーヤー",
+                    "description": "YouTubeからBGMを再生します。",
+                    "url_placeholder": "YouTubeのURLを貼り付け...",
+                    "load": "読み込み",
+                    "delete": "削除",
+                    "no_track": "トラックが読み込まれていません",
+                    "enter_url": "YouTubeのURLを入力してください"
+                },
+                "partner": {
+                    "title": "パートナーキャラクター",
+                    "description": "パートナーキャラクターを管理します。",
+                    "button": "パートナーを削除"
+                },
+                "height": {
+                    "title": "身長設定",
+                    "description": "身長を調整します。一度設定すると変更できないので注意してください！",
+                    "required": "調整が必要"
+                },
+                "backstory": {
+                    "title": "キャラクターの背景",
+                    "description": "キャラクターの背景ストーリーを書いてください。これはキャラクターカードに表示されます。",
+                    "placeholder": "キャラクターの背景ストーリーを書いてください...",
+                    "save": "背景を保存",
+                    "required": "記入が必要"
+                },
+                "badge": {
+                    "title": "カスタムバッジ",
+                    "description": "絵文字とテキストでバッジを作成します。",
+                    "emoji_label": "絵文字を選択",
+                    "text_label": "バッジテキスト",
+                    "text_placeholder": "テキストを入力...",
+                    "preview_placeholder": "バッジのプレビュー",
+                    "save": "バッジを保存"
+                }
+            },
+            "reset": {
+                "title": "設定のリセット",
+                "description": "すべての設定を初期値に戻します。",
+                "confirm": "はい、リセットします",
+                "cancel": "キャンセル"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "名前は%s文字以上必要です",
+                "max": "名前は%s文字以内です",
+                "required": "名前は必須です",
+                "regex": "文字のみ使用可能です"
+            },
+            "lastname": {
+                "min": "苗字は%s文字以上必要です",
+                "max": "苗字は%s文字以内です",
+                "required": "苗字は必須です",
+                "regex": "文字のみ使用可能です"
+            },
+            "birthdate": {
+                "required": "生年月日は必須です",
+                "invalid": "無効な日付です",
+                "age": "18歳以上である必要があります"
+            },
+            "gender": {
+                "required": "性別は必須です",
+                "regex": "特殊文字は使用できません"
+            },
+            "nationality": {
+                "required": "国籍は必須です",
+                "regex": "特殊文字は使用できません"
+            },
+            "backstory": {
+                "min": "バックストーリーは%s文字以上必要です",
+                "max": "バックストーリーは%s文字以内です"
+            },
+            "redeem": {
+                "regex": "コードに無効な文字が含まれています"
+            }
+        },
+        "newCharacter": {
+            "welcome": "ようこそ、",
+            "stranger": "旅人よ",
+            "description": "新しいキャラクターを作成して冒険を始めましょう。運命が待っています！"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "無効な取引IDです。",
+            "transaction_not_found_or_already_claimed": "取引が見つからないか、既に使用されています。",
+            "rate_limited": "制限がかかっています。後でもう一度お試しください。残り時間：%s"
+        },
+        "success": "引き換えに成功しました"
+    },
+    "partnerInvite": {
+        "title": "パートナー招待",
+        "description": "%sからパートナー招待を受けました。承諾するとその人とパートナーになります。",
+        "accept": "承諾",
+        "decline": "拒否",
+        "accepted": "%sがパートナー招待を承諾しました。",
+        "declined": "%sがパートナー招待を拒否しました。",
+        "invite_sent": "パートナー招待を送信しました。",
+        "couple": "カップル",
+        "best_friend": "親友"
+    }
+}

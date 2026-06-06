@@ -1,0 +1,264 @@
+{
+    "exit": "Oyundan çıkış yaptınız.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "Oyuna Başla",
+                "description": "Yolculuğuna başla"
+            },
+            "settings": {
+                "label": "Ayarlar",
+                "description": "Tercihlerini ayarla"
+            },
+            "credits": {
+                "label": "Yapımcılar",
+                "description": "Ekibi görüntüle"
+            },
+            "store": {
+                "label": "Mağaza",
+                "description": "Oyun marketi"
+            },
+            "quit": {
+                "label": "Oyundan Çık",
+                "description": "Hoşça kal!"
+            }
+        },
+        "register": {
+            "title": "Karakter Kaydı",
+            "description": "Kayıt olmak için lütfen bilgilerinizi girin.",
+            "firstname": {
+                "label": "Ad",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "Soyad",
+                "placeholder": "Doe"
+            },
+            "dob": "Doğum Tarihi",
+            "gender": {
+                "label": "Cinsiyet",
+                "placeholder": "Cinsiyet Seçin",
+                "sex": {
+                    "male": "Erkek",
+                    "female": "Kadın"
+                }
+            },
+            "height": "Boy",
+            "backstory": {
+                "label": "Geçmiş Hikayesi",
+                "placeholder": "Karakterinizin geçmiş hikayesini yazın..."
+            },
+            "nationality": {
+                "label": "Uyruk",
+                "placeholder": "Uyruk Seçin"
+            },
+            "submit": "Karakter Oluştur"
+        },
+        "delete": {
+            "title": "Karakteri Sil",
+            "description": "Bu karakteri silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+            "confirm": "Karakteri Sil",
+            "cancel": "İptal"
+        },
+        "zodiacSigns": {
+            "aries": "Koç",
+            "taurus": "Boğa",
+            "gemini": "İkizler",
+            "cancer": "Yengeç",
+            "leo": "Aslan",
+            "virgo": "Başak",
+            "libra": "Terazi",
+            "scorpio": "Akrep",
+            "sagittarius": "Yay",
+            "capricorn": "Oğlak",
+            "aquarius": "Kova",
+            "pisces": "Balık"
+        },
+        "settings": {
+            "title": "Ayarlar",
+            "tabs": {
+                "general": "Genel Ayarlar",
+                "character": "Karakter Ayarları",
+                "weather": "Hava Durumu",
+                "purchases": "Satın Alma Geçmişi",
+                "reset": "Ayarları Sıfırla"
+            },
+            "general": {
+                "title": "Genel Ayarlar",
+                "description": "Genel tercihlerinizi düzenleyin.",
+                "fps_mode": {
+                    "label": "FPS Modu",
+                    "description": "Performansı artırmak için bulanıklık ve hava efektlerini kapatır."
+                },
+                "cinematic_mode": {
+                    "label": "Sinematik Mod",
+                    "description": "Ekranın üstüne ve altına siyah barlar ekler."
+                },
+                "cam_distance": {
+                    "label": "Kamera Mesafesi",
+                    "description": "Karakterinize olan kamera mesafesini ayarlar.",
+                    "placeholder": "Seçiniz",
+                    "selection": {
+                        "close": "Yakın",
+                        "far": "Uzak"
+                    }
+                },
+                "filter": {
+                    "label": "Filtre",
+                    "description": "Ekrana görsel bir filtre uygular.",
+                    "placeholder": "Seçiniz"
+                }
+            },
+            "weather": {
+                "title": "Hava Durumu Ayarları",
+                "description": "Oyun içi saati ve havayı özelleştirin.",
+                "clock": {
+                    "label": "Saat",
+                    "description": "Oyun içi saati ayarla."
+                },
+                "weather_type": {
+                    "label": "Hava Türü",
+                    "description": "Tercih ettiğiniz hava durumunu seçin.",
+                    "placeholder": "Seçiniz",
+                    "selection": {
+                        "clear": "Açık",
+                        "extrasunny": "Çok Güneşli",
+                        "clouds": "Bulutlu",
+                        "overcast": "Kapalı",
+                        "rain": "Yağmurlu",
+                        "thunder": "Fırtınalı",
+                        "smog": "Kirli Hava",
+                        "fog": "Sisli",
+                        "xmas": "Noel",
+                        "snowlight": "Hafif Kar",
+                        "blizzard": "Tipi",
+                        "snow": "Karlı",
+                        "neutral": "Nötr"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "Satın Alma Geçmişi",
+                "description": "Tüm satın alma işlemlerinizi görüntüleyin.",
+                "redeem_title": "Kod Kullan",
+                "input_placeholder": "Kodunuzu buraya girin...",
+                "submit": "Kullan",
+                "checking": "Kontrol ediliyor...",
+                "no_history": "Henüz satın alma geçmişiniz yok.",
+                "table": {
+                    "product": "Ürün",
+                    "date": "Tarih",
+                    "status": "Durum"
+                },
+                "status": {
+                    "completed": "Tamamlandı",
+                    "pending": "Beklemede",
+                    "refunded": "İade Edildi"
+                }
+            },
+            "character": {
+                "title": "Karakter Ayarları",
+                "description": "Karakterinizin görünümünü ve tercihlerini özelleştirin.",
+                "music": {
+                    "title": "Müzik Çalar",
+                    "description": "YouTube'dan arka plan müziği çalın.",
+                    "url_placeholder": "YouTube URL'sini buraya yapıştırın...",
+                    "load": "Yükle",
+                    "delete": "Sil",
+                    "no_track": "Yüklü parça yok",
+                    "enter_url": "Bir YouTube URL'si girin"
+                },
+                "partner": {
+                    "title": "Partner Karakter",
+                    "description": "Partner karakterinizi yönetin.",
+                    "button": "Partneri Sil"
+                },
+                "height": {
+                    "title": "Karakter Boyu",
+                    "description": "Karakter boyunu ayarlayın. Değişiklik kalıcıdır!",
+                    "required": "Ayarlama gerekli"
+                },
+                "backstory": {
+                    "title": "Karakter Geçmişi",
+                    "description": "Karakterinizin geçmiş hikayesini yazın. Bu, karakter kartınızda görüntülenecektir.",
+                    "placeholder": "Karakterinizin geçmiş hikayesini yazın...",
+                    "save": "Geçmişi Kaydet",
+                    "required": "Yazmanız gerekli"
+                },
+                "badge": {
+                    "title": "Özel Rozet",
+                    "description": "Emoji ve metin içeren özel rozetinizi oluşturun.",
+                    "emoji_label": "Emoji Seç",
+                    "text_label": "Rozet Metni",
+                    "text_placeholder": "Metin girin...",
+                    "preview_placeholder": "Rozetiniz",
+                    "save": "Rozeti Kaydet"
+                }
+            },
+            "reset": {
+                "title": "Ayarları Sıfırla",
+                "description": "Tüm ayarlarınızı varsayılana döndürün.",
+                "confirm": "Evet, Ayarları Sıfırla",
+                "cancel": "İptal"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "İsim en az %s karakter olmalıdır",
+                "max": "İsim en fazla %s karakter olmalıdır",
+                "required": "İsim gereklidir",
+                "regex": "Sadece harflere izin verilir"
+            },
+            "lastname": {
+                "min": "Soyisim en az %s karakter olmalıdır",
+                "max": "Soyisim en fazla %s karakter olmalıdır",
+                "required": "Soyisim gereklidir",
+                "regex": "Sadece harflere izin verilir"
+            },
+            "birthdate": {
+                "required": "Doğum tarihi gereklidir",
+                "invalid": "Geçersiz tarih",
+                "age": "En az 18 yaşında olmalısınız"
+            },
+            "gender": {
+                "required": "Cinsiyet gereklidir",
+                "regex": "Özel karakterlere izin verilmez"
+            },
+            "nationality": {
+                "required": "Uyruk gereklidir",
+                "regex": "Özel karakterlere izin verilmez"
+            },
+            "backstory": {
+                "min": "Hikaye en az %s karakter olmalıdır",
+                "max": "Hikaye en fazla %s karakter olmalıdır"
+            },
+            "redeem": {
+                "regex": "Kod geçersiz karakterler içeriyor"
+            }
+        },
+        "newCharacter": {
+            "welcome": "Hoşgeldin,",
+            "stranger": "Yabancı",
+            "description": "Macerana başlamak için yeni bir karakter oluştur. Kaderin seni bekliyor!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "Geçersiz işlem kimliği.",
+            "transaction_not_found_or_already_claimed": "İşlem bulunamadı veya zaten kullanılmış.",
+            "rate_limited": "Çok fazla deneme yaptınız. Lütfen sonra tekrar deneyin. Kalan süre: %s"
+        },
+        "success": "Kod başarıyla kullanıldı"
+    },
+    "partnerInvite": {
+        "title": "Partner Daveti",
+        "description": "%s tarafından partner daveti aldınız. Kabul etmek sizi o kişiyle partner yapacaktır.",
+        "accept": "Kabul Et",
+        "decline": "Reddet",
+        "accepted": "%s partner davetini kabul etti.",
+        "declined": "%s partner davetini reddetti.",
+        "invite_sent": "Partner daveti gönderildi.",
+        "couple": "Çift",
+        "best_friend": "Arkadaş"
+    }
+}

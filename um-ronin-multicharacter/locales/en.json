@@ -1,0 +1,264 @@
+{
+    "exit": "You have exited the game.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "Play Game",
+                "description": "Start your journey"
+            },
+            "settings": {
+                "label": "Settings",
+                "description": "Adjust your preferences"
+            },
+            "credits": {
+                "label": "Credits",
+                "description": "View team"
+            },
+            "store": {
+                "label": "Store",
+                "description": "Gaming market"
+            },
+            "quit": {
+                "label": "Exit Game",
+                "description": "Goodbye!"
+            }
+        },
+        "register": {
+            "title": "Character Registration",
+            "description": "Please enter your details to register.",
+            "firstname": {
+                "label": "Firstname",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "Lastname",
+                "placeholder": "Doe"
+            },
+            "dob": "Date of Birth",
+            "gender": {
+                "label": "Gender",
+                "placeholder": "Select Gender",
+                "sex": {
+                    "male": "Male",
+                    "female": "Female"
+                }
+            },
+            "height": "Height",
+            "backstory": {
+                "label": "Backstory",
+                "placeholder": "Write your character's backstory..."
+            },
+            "nationality": {
+                "label": "Nationality",
+                "placeholder": "Select Nationality"
+            },
+            "submit": "Create Character"
+        },
+        "delete": {
+            "title": "Delete Character",
+            "description": "Are you sure you want to delete this character? This action cannot be undone.",
+            "confirm": "Delete Character",
+            "cancel": "Cancel"
+        },
+        "zodiacSigns": {
+            "aries": "Aries",
+            "taurus": "Taurus",
+            "gemini": "Gemini",
+            "cancer": "Cancer",
+            "leo": "Leo",
+            "virgo": "Virgo",
+            "libra": "Libra",
+            "scorpio": "Scorpio",
+            "sagittarius": "Sagittarius",
+            "capricorn": "Capricorn",
+            "aquarius": "Aquarius",
+            "pisces": "Pisces"
+        },
+        "settings": {
+            "title": "Settings",
+            "tabs": {
+                "general": "General Settings",
+                "character": "Character Settings",
+                "weather": "Weather Settings",
+                "purchases": "Purchase History",
+                "reset": "Reset Settings"
+            },
+            "general": {
+                "title": "General Settings",
+                "description": "Adjust your general preferences.",
+                "fps_mode": {
+                    "label": "FPS Mode",
+                    "description": "Disable blur effects and weather particles to improve performance."
+                },
+                "cinematic_mode": {
+                    "label": "Cinematic Mode",
+                    "description": "Add cinematic black bars to the top and bottom of the screen."
+                },
+                "cam_distance": {
+                    "label": "Camera Distance",
+                    "description": "Adjust the camera distance to your character.",
+                    "placeholder": "Select",
+                    "selection": {
+                        "close": "Close",
+                        "far": "Far"
+                    }
+                },
+                "filter": {
+                    "label": "Filter",
+                    "description": "Apply a visual filter to the screen.",
+                    "placeholder": "Select"
+                }
+            },
+            "weather": {
+                "title": "Weather Settings",
+                "description": "Customize in-game time and weather.",
+                "clock": {
+                    "label": "Clock",
+                    "description": "Set the in-game time."
+                },
+                "weather_type": {
+                    "label": "Weather Type",
+                    "description": "Select your preferred weather type.",
+                    "placeholder": "Select",
+                    "selection": {
+                        "clear": "Clear",
+                        "extrasunny": "Extra Sunny",
+                        "clouds": "Cloudy",
+                        "overcast": "Overcast",
+                        "rain": "Rainy",
+                        "thunder": "Stormy",
+                        "smog": "Smoggy",
+                        "fog": "Foggy",
+                        "xmas": "Christmas",
+                        "snowlight": "Snowlight",
+                        "blizzard": "Blizzard",
+                        "snow": "Snowy",
+                        "neutral": "Neutral"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "Purchase History",
+                "description": "View all your purchase transactions.",
+                "redeem_title": "Redeem Code",
+                "input_placeholder": "Enter your code here...",
+                "submit": "Claim",
+                "checking": "Checking...",
+                "no_history": "You have no purchase history yet.",
+                "table": {
+                    "product": "Product",
+                    "date": "Date",
+                    "status": "Status"
+                },
+                "status": {
+                    "completed": "Completed",
+                    "pending": "Pending",
+                    "refunded": "Refunded"
+                }
+            },
+            "character": {
+                "title": "Character Settings",
+                "description": "Customize your character's appearance and preferences.",
+                "music": {
+                    "title": "Music Player",
+                    "description": "Play music character background music from YouTube.",
+                    "url_placeholder": "Paste YouTube URL here...",
+                    "load": "Load",
+                    "delete": "Delete",
+                    "no_track": "No track loaded",
+                    "enter_url": "Enter a YouTube URL"
+                },
+                "partner": {
+                    "title": "Partner Character",
+                    "description": "Manage your partner character.",
+                    "button": "Delete Partner"
+                },
+                "height": {
+                    "title": "Character Height",
+                    "description": "Adjust your character's height. don't forget this unchanges when you adjust it!",
+                    "required": "Adjustment required"
+                },
+                "backstory": {
+                    "title": "Character Backstory",
+                    "description": "Write your character's backstory. This will be displayed on your character card.",
+                    "placeholder": "Write your character's backstory...",
+                    "save": "Save Backstory",
+                    "required": "Write required"
+                },
+                "badge": {
+                    "title": "Custom Badge",
+                    "description": "Create your own custom badge with an emoji and text.",
+                    "emoji_label": "Select Emoji",
+                    "text_label": "Badge Text",
+                    "text_placeholder": "Enter badge text...",
+                    "preview_placeholder": "Your Badge",
+                    "save": "Save Badge"
+                }
+            },
+            "reset": {
+                "title": "Reset Settings",
+                "description": "Reset all your settings to default values.",
+                "confirm": "Yes, Reset Settings",
+                "cancel": "Cancel"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "Firstname must be at least %s characters",
+                "max": "Firstname must be at most %s characters",
+                "required": "Firstname is required",
+                "regex": "Only letters are allowed"
+            },
+            "lastname": {
+                "min": "Lastname must be at least %s characters",
+                "max": "Lastname must be at most %s characters",
+                "required": "Lastname is required",
+                "regex": "Only letters are allowed"
+            },
+            "birthdate": {
+                "required": "Date of Birth is required",
+                "invalid": "Invalid date",
+                "age": "You must be at least 18 years old"
+            },
+            "gender": {
+                "required": "Gender is required",
+                "regex": "No special characters allowed"
+            },
+            "nationality": {
+                "required": "Nationality is required",
+                "regex": "No special characters allowed"
+            },
+            "backstory": {
+                "min": "Backstory must be at least %s characters",
+                "max": "Backstory must be at most %s characters"
+            },
+            "redeem": {
+                "regex": "Code contains invalid characters"
+            }
+        },
+        "newCharacter": {
+            "welcome": "Welcome,",
+            "stranger": "Stranger",
+            "description": "Create a new character to start your adventure. Your destiny awaits!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "Invalid transaction ID.",
+            "transaction_not_found_or_already_claimed": "Transaction not found or already claimed.",
+            "rate_limited": "You are being rate limited. Please try again later. Time remaining: %s"
+        },
+        "success": "Transaction redeemed successfully"
+    },
+    "partnerInvite": {
+        "title": "Partner Invitation",
+        "description": "You received a partner invite from %s. Accepting will make you partners with that person.",
+        "accept": "Accept",
+        "decline": "Decline",
+        "accepted": "%s accepted the partner invite.",
+        "declined": "%s declined the partner invite.",
+        "invite_sent": "Partner invite sent.",
+        "couple": "Couple",
+        "best_friend": "Best Friend"
+    }
+}

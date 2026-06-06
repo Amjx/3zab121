@@ -1,0 +1,264 @@
+{
+    "exit": "Saíste do jogo.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "Jogar",
+                "description": "Comece a sua jornada"
+            },
+            "settings": {
+                "label": "Definições",
+                "description": "Ajuste as suas preferências"
+            },
+            "credits": {
+                "label": "Créditos",
+                "description": "Ver equipa"
+            },
+            "store": {
+                "label": "Loja",
+                "description": "Mercado de jogos"
+            },
+            "quit": {
+                "label": "Sair do jogo",
+                "description": "Adeus!"
+            }
+        },
+        "register": {
+            "title": "Registo de Personagem",
+            "description": "Por favor, insira os seus dados para se registar.",
+            "firstname": {
+                "label": "Nome",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "Apelido",
+                "placeholder": "Doe"
+            },
+            "dob": "Data de Nascimento",
+            "gender": {
+                "label": "Género",
+                "placeholder": "Escolha o Género",
+                "sex": {
+                    "male": "Masculino",
+                    "female": "Feminino"
+                }
+            },
+            "height": "Altura",
+            "backstory": {
+                "label": "História",
+                "placeholder": "Escreva a história do seu personagem..."
+            },
+            "nationality": {
+                "label": "Nacionalidade",
+                "placeholder": "Escolha a Nacionalidade"
+            },
+            "submit": "Criar Personagem"
+        },
+        "delete": {
+            "title": "Eliminar Personagem",
+            "description": "Tem a certeza de que deseja eliminar esta personagem? Esta ação não pode ser desfeita.",
+            "confirm": "Eliminar Personagem",
+            "cancel": "Cancelar"
+        },
+        "zodiacSigns": {
+            "aries": "Carneiro",
+            "taurus": "Touro",
+            "gemini": "Gémeos",
+            "cancer": "Caranguejo",
+            "leo": "Leão",
+            "virgo": "Virgem",
+            "libra": "Balança",
+            "scorpio": "Escorpião",
+            "sagittarius": "Sagitário",
+            "capricorn": "Capricórnio",
+            "aquarius": "Aquário",
+            "pisces": "Peixes"
+        },
+        "settings": {
+            "title": "Definições",
+            "tabs": {
+                "general": "Definições Gerais",
+                "character": "Definições de Personagem",
+                "weather": "Clima",
+                "purchases": "Histórico de Compras",
+                "reset": "Repor Definições"
+            },
+            "general": {
+                "title": "Definições Gerais",
+                "description": "Edite as suas preferências gerais.",
+                "fps_mode": {
+                    "label": "Modo FPS",
+                    "description": "Desativa o desfoque e efeitos climáticos para melhor desempenho."
+                },
+                "cinematic_mode": {
+                    "label": "Modo Cinemático",
+                    "description": "Adiciona barras pretas no topo e na base do ecrã."
+                },
+                "cam_distance": {
+                    "label": "Distância da Câmara",
+                    "description": "Ajusta a distância da câmara para a sua personagem.",
+                    "placeholder": "Escolha",
+                    "selection": {
+                        "close": "Perto",
+                        "far": "Longe"
+                    }
+                },
+                "filter": {
+                    "label": "Filtro",
+                    "description": "Aplica um filtro visual ao ecrã.",
+                    "placeholder": "Escolha"
+                }
+            },
+            "weather": {
+                "title": "Definições de Clima",
+                "description": "Personalize o tempo e o clima no jogo.",
+                "clock": {
+                    "label": "Relógio",
+                    "description": "Defina o tempo do jogo."
+                },
+                "weather_type": {
+                    "label": "Tipo de Clima",
+                    "description": "Escolha o seu clima preferido.",
+                    "placeholder": "Escolha",
+                    "selection": {
+                        "clear": "Limpo",
+                        "extrasunny": "Muito Sol",
+                        "clouds": "Nuvens",
+                        "overcast": "Encoberto",
+                        "rain": "Chuva",
+                        "thunder": "Trovoada",
+                        "smog": "Smog",
+                        "fog": "Nevoeiro",
+                        "xmas": "Natal",
+                        "snowlight": "Neve Leve",
+                        "blizzard": "Nevasca",
+                        "snow": "Neve",
+                        "neutral": "Neutro"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "Histórico de Compras",
+                "description": "Visualize todas as suas transações de compra.",
+                "redeem_title": "Resgatar Código",
+                "input_placeholder": "Insira o código aqui...",
+                "submit": "Resgatar",
+                "checking": "A verificar...",
+                "no_history": "Ainda não tem histórico de compras.",
+                "table": {
+                    "product": "Produto",
+                    "date": "Data",
+                    "status": "Estado"
+                },
+                "status": {
+                    "completed": "Concluído",
+                    "pending": "Pendente",
+                    "refunded": "Reembolsado"
+                }
+            },
+            "character": {
+                "title": "Definições de Personagem",
+                "description": "Personalize a aparência e preferências da sua personagem.",
+                "music": {
+                    "title": "Leitor de Música",
+                    "description": "Reproduza música de fundo do YouTube.",
+                    "url_placeholder": "Cole o URL do YouTube aqui...",
+                    "load": "Carregar",
+                    "delete": "Eliminar",
+                    "no_track": "Nenhuma faixa carregada",
+                    "enter_url": "Insira um URL do YouTube"
+                },
+                "partner": {
+                    "title": "Personagem Parceiro",
+                    "description": "Gerencie seu personagem parceiro.",
+                    "button": "Eliminar Parceiro"
+                },
+                "height": {
+                    "title": "Altura da Personagem",
+                    "description": "Ajuste a altura da personagem. Esta alteração é permanente!",
+                    "required": "Ajuste necessário"
+                },
+                "backstory": {
+                    "title": "História da Personagem",
+                    "description": "Escreva a história de fundo da sua personagem. Isto será exibido no cartão da personagem.",
+                    "placeholder": "Escreva a história de fundo da sua personagem...",
+                    "save": "Guardar História",
+                    "required": "Escrita necessária"
+                },
+                "badge": {
+                    "title": "Distintivo Personalizado",
+                    "description": "Crie o seu distintivo especial com emoji e texto.",
+                    "emoji_label": "Escolher Emoji",
+                    "text_label": "Texto do Distintivo",
+                    "text_placeholder": "Insira o texto...",
+                    "preview_placeholder": "O seu distintivo",
+                    "save": "Guardar Distintivo"
+                }
+            },
+            "reset": {
+                "title": "Repor Definições",
+                "description": "Restaura todas as definições para os valores padrão.",
+                "confirm": "Sim, Repor Definições",
+                "cancel": "Cancelar"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "O nome deve ter pelo menos %s caracteres",
+                "max": "O nome deve ter no máximo %s caracteres",
+                "required": "O nome é obrigatório",
+                "regex": "Apenas letras são permitidas"
+            },
+            "lastname": {
+                "min": "O apelido deve ter pelo menos %s caracteres",
+                "max": "O apelido deve ter no máximo %s caracteres",
+                "required": "O apelido é obrigatório",
+                "regex": "Apenas letras são permitidas"
+            },
+            "birthdate": {
+                "required": "A data de nascimento é obrigatória",
+                "invalid": "Data inválida",
+                "age": "Deve ter pelo menos 18 anos"
+            },
+            "gender": {
+                "required": "O género é obrigatório",
+                "regex": "Caracteres especiais não são permitidos"
+            },
+            "nationality": {
+                "required": "A nacionalidade é obrigatória",
+                "regex": "Caracteres especiais não são permitidos"
+            },
+            "backstory": {
+                "min": "A história deve ter pelo menos %s caracteres",
+                "max": "A história deve ter no máximo %s caracteres"
+            },
+            "redeem": {
+                "regex": "O código contém caracteres inválidos"
+            }
+        },
+        "newCharacter": {
+            "welcome": "Bem-vindo,",
+            "stranger": "Estranho",
+            "description": "Crie um novo personagem para começar a sua aventura. O seu destino aguarda!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "ID de transação inválido.",
+            "transaction_not_found_or_already_claimed": "Transação não encontrada ou já resgatada.",
+            "rate_limited": "Demasiadas tentativas. Por favor, tente novamente mais tarde. Tempo restante: %s"
+        },
+        "success": "Código resgatado com sucesso"
+    },
+    "partnerInvite": {
+        "title": "Convite de Parceiro",
+        "description": "Recebeu um convite de parceiro de %s. Aceitar fará de vocês parceiros.",
+        "accept": "Aceitar",
+        "decline": "Recusar",
+        "accepted": "%s aceitou o convite de parceiro.",
+        "declined": "%s recusou o convite de parceiro.",
+        "invite_sent": "Convite de parceiro enviado.",
+        "couple": "Casal",
+        "best_friend": "Melhor Amigo"
+    }
+}

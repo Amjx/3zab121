@@ -1,0 +1,264 @@
+{
+    "exit": "Anda telah keluar dari permainan.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "Main Game",
+                "description": "Mulai perjalananmu"
+            },
+            "settings": {
+                "label": "Pengaturan",
+                "description": "Sesuaikan preferensimu"
+            },
+            "credits": {
+                "label": "Kredit",
+                "description": "Lihat tim"
+            },
+            "store": {
+                "label": "Toko",
+                "description": "Pasar game"
+            },
+            "quit": {
+                "label": "Keluar Game",
+                "description": "Selamat tinggal!"
+            }
+        },
+        "register": {
+            "title": "Registrasi Karakter",
+            "description": "Silakan masukkan data Anda untuk mendaftar.",
+            "firstname": {
+                "label": "Nama Depan",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "Nama Belakang",
+                "placeholder": "Doe"
+            },
+            "dob": "Tanggal Lahir",
+            "gender": {
+                "label": "Jenis Kelamin",
+                "placeholder": "Pilih Jenis Kelamin",
+                "sex": {
+                    "male": "Laki-laki",
+                    "female": "Perempuan"
+                }
+            },
+            "height": "Tinggi Badan",
+            "backstory": {
+                "label": "Latar Belakang",
+                "placeholder": "Tulis latar belakang karaktermu..."
+            },
+            "nationality": {
+                "label": "Kewarganegaraan",
+                "placeholder": "Pilih Kewarganegaraan"
+            },
+            "submit": "Buat Karakter"
+        },
+        "delete": {
+            "title": "Hapus Karakter",
+            "description": "Apakah Anda yakin ingin menghapus karakter ini? Tindakan ini tidak dapat dibatalkan.",
+            "confirm": "Hapus Karakter",
+            "cancel": "Batal"
+        },
+        "zodiacSigns": {
+            "aries": "Aries",
+            "taurus": "Taurus",
+            "gemini": "Gemini",
+            "cancer": "Cancer",
+            "leo": "Leo",
+            "virgo": "Virgo",
+            "libra": "Libra",
+            "scorpio": "Scorpio",
+            "sagittarius": "Sagitarius",
+            "capricorn": "Capricorn",
+            "aquarius": "Aquarius",
+            "pisces": "Pisces"
+        },
+        "settings": {
+            "title": "Pengaturan",
+            "tabs": {
+                "general": "Pengaturan Umum",
+                "character": "Pengaturan Karakter",
+                "weather": "Cuaca",
+                "purchases": "Riwayat Pembelian",
+                "reset": "Atur Ulang Pengaturan"
+            },
+            "general": {
+                "title": "Pengaturan Umum",
+                "description": "Ubah preferensi umum Anda.",
+                "fps_mode": {
+                    "label": "Mode FPS",
+                    "description": "Mematikan efek blur dan cuaca untuk meningkatkan performa."
+                },
+                "cinematic_mode": {
+                    "label": "Mode Sinematik",
+                    "description": "Menambahkan bar hitam di bagian atas dan bawah layar."
+                },
+                "cam_distance": {
+                    "label": "Jarak Kamera",
+                    "description": "Mengatur jarak kamera ke karakter Anda.",
+                    "placeholder": "Pilih",
+                    "selection": {
+                        "close": "Dekat",
+                        "far": "Jauh"
+                    }
+                },
+                "filter": {
+                    "label": "Filter",
+                    "description": "Menerapkan filter visual pada layar.",
+                    "placeholder": "Pilih"
+                }
+            },
+            "weather": {
+                "title": "Pengaturan Cuaca",
+                "description": "Sesuaikan waktu dan cuaca dalam permainan.",
+                "clock": {
+                    "label": "Jam",
+                    "description": "Atur waktu permainan."
+                },
+                "weather_type": {
+                    "label": "Tipe Cuaca",
+                    "description": "Pilih cuaca pilihan Anda.",
+                    "placeholder": "Pilih",
+                    "selection": {
+                        "clear": "Cerah",
+                        "extrasunny": "Sangat Terik",
+                        "clouds": "Berawan",
+                        "overcast": "Mendung",
+                        "rain": "Hujan",
+                        "thunder": "Badai",
+                        "smog": "Polusi",
+                        "fog": "Berkabut",
+                        "xmas": "Natal",
+                        "snowlight": "Salju Ringan",
+                        "blizzard": "Badai Salju",
+                        "snow": "Bersalju",
+                        "neutral": "Netral"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "Riwayat Pembelian",
+                "description": "Lihat semua transaksi pembelian Anda.",
+                "redeem_title": "Gunakan Kode",
+                "input_placeholder": "Masukkan kode di sini...",
+                "submit": "Gunakan",
+                "checking": "Memeriksa...",
+                "no_history": "Anda belum memiliki riwayat pembelian.",
+                "table": {
+                    "product": "Produk",
+                    "date": "Tanggal",
+                    "status": "Status"
+                },
+                "status": {
+                    "completed": "Selesai",
+                    "pending": "Menunggu",
+                    "refunded": "Dikembalikan"
+                }
+            },
+            "character": {
+                "title": "Pengaturan Karakter",
+                "description": "Sesuaikan penampilan dan preferensi karakter Anda.",
+                "music": {
+                    "title": "Pemutar Musik",
+                    "description": "Putar musik latar dari YouTube.",
+                    "url_placeholder": "Tempel URL YouTube di sini...",
+                    "load": "Muat",
+                    "delete": "Hapus",
+                    "no_track": "Tidak ada lagu yang dimuat",
+                    "enter_url": "Masukkan URL YouTube"
+                },
+                "partner": {
+                    "title": "Karakter Partner",
+                    "description": "Kelola karakter partner Anda.",
+                    "button": "Hapus Partner"
+                },
+                "height": {
+                    "title": "Tinggi Karakter",
+                    "description": "Atur tinggi karakter. Perubahan ini permanen!",
+                    "required": "Penyesuaian diperlukan"
+                },
+                "backstory": {
+                    "title": "Latar Belakang Karakter",
+                    "description": "Tulis latar belakang karakter Anda. Ini akan ditampilkan di kartu karakter Anda.",
+                    "placeholder": "Tulis latar belakang karakter Anda...",
+                    "save": "Simpan Latar Belakang",
+                    "required": "Penulisan diperlukan"
+                },
+                "badge": {
+                    "title": "Lencana Kustom",
+                    "description": "Buat lencana spesial Anda dengan emoji dan teks.",
+                    "emoji_label": "Pilih Emoji",
+                    "text_label": "Teks Lencana",
+                    "text_placeholder": "Masukkan teks...",
+                    "preview_placeholder": "Lencana Anda",
+                    "save": "Simpan Lencana"
+                }
+            },
+            "reset": {
+                "title": "Atur Ulang Pengaturan",
+                "description": "Kembalikan semua pengaturan ke default.",
+                "confirm": "Ya, Atur Ulang",
+                "cancel": "Batal"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "Nama depan minimal %s karakter",
+                "max": "Nama depan maksimal %s karakter",
+                "required": "Nama depan wajib diisi",
+                "regex": "Hanya huruf yang diizinkan"
+            },
+            "lastname": {
+                "min": "Nama belakang minimal %s karakter",
+                "max": "Nama belakang maksimal %s karakter",
+                "required": "Nama belakang wajib diisi",
+                "regex": "Hanya huruf yang diizinkan"
+            },
+            "birthdate": {
+                "required": "Tanggal lahir wajib diisi",
+                "invalid": "Tanggal tidak valid",
+                "age": "Anda harus berusia minimal 18 tahun"
+            },
+            "gender": {
+                "required": "Jenis kelamin wajib diisi",
+                "regex": "Karakter khusus tidak diizinkan"
+            },
+            "nationality": {
+                "required": "Kewarganegaraan wajib diisi",
+                "regex": "Karakter khusus tidak diizinkan"
+            },
+            "backstory": {
+                "min": "Latar belakang minimal %s karakter",
+                "max": "Latar belakang maksimal %s karakter"
+            },
+            "redeem": {
+                "regex": "Kode mengandung karakter tidak valid"
+            }
+        },
+        "newCharacter": {
+            "welcome": "Selamat datang,",
+            "stranger": "Orang Asing",
+            "description": "Buat karakter baru untuk memulai petualanganmu. Takdirmu menunggu!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "ID transaksi tidak valid.",
+            "transaction_not_found_or_already_claimed": "Transaksi tidak ditemukan atau sudah diklaim.",
+            "rate_limited": "Terlalu banyak percobaan. Silakan coba lagi nanti. Sisa waktu: %s"
+        },
+        "success": "Kode berhasil digunakan"
+    },
+    "partnerInvite": {
+        "title": "Undangan Partner",
+        "description": "Anda menerima undangan partner dari %s. Menerima akan menjadikan Anda partner dengan orang tersebut.",
+        "accept": "Terima",
+        "decline": "Tolak",
+        "accepted": "%s menerima undangan partner.",
+        "declined": "%s menolak undangan partner.",
+        "invite_sent": "Undangan partner terkirim.",
+        "couple": "Pasangan",
+        "best_friend": "Sahabat"
+    }
+}

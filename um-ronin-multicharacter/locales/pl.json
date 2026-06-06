@@ -1,0 +1,264 @@
+{
+    "exit": "Opuściłeś grę.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "Graj",
+                "description": "Rozpocznij swoją podróż"
+            },
+            "settings": {
+                "label": "Ustawienia",
+                "description": "Dostosuj swoje preferencje"
+            },
+            "credits": {
+                "label": "Twórcy",
+                "description": "Zobacz zespół"
+            },
+            "store": {
+                "label": "Sklep",
+                "description": "Rynek gier"
+            },
+            "quit": {
+                "label": "Wyjdź z gry",
+                "description": "Do widzenia!"
+            }
+        },
+        "register": {
+            "title": "Rejestracja Postaci",
+            "description": "Wprowadź swoje dane, aby się zarejestrować.",
+            "firstname": {
+                "label": "Imię",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "Nazwisko",
+                "placeholder": "Doe"
+            },
+            "dob": "Data Urodzenia",
+            "gender": {
+                "label": "Płeć",
+                "placeholder": "Wybierz Płeć",
+                "sex": {
+                    "male": "Mężczyzna",
+                    "female": "Kobieta"
+                }
+            },
+            "height": "Wzrost",
+            "backstory": {
+                "label": "Historia postaci",
+                "placeholder": "Napisz historię swojej postaci..."
+            },
+            "nationality": {
+                "label": "Narodowość",
+                "placeholder": "Wybierz Narodowość"
+            },
+            "submit": "Stwórz Postać"
+        },
+        "delete": {
+            "title": "Usuń Postać",
+            "description": "Czy na pewno chcesz usunąć tę postać? Tej operacji nie można cofnąć.",
+            "confirm": "Usuń Postać",
+            "cancel": "Anuluj"
+        },
+        "zodiacSigns": {
+            "aries": "Baran",
+            "taurus": "Byk",
+            "gemini": "Bliźnięta",
+            "cancer": "Rak",
+            "leo": "Lew",
+            "virgo": "Panna",
+            "libra": "Waga",
+            "scorpio": "Skorpion",
+            "sagittarius": "Strzelec",
+            "capricorn": "Koziorożec",
+            "aquarius": "Wodnik",
+            "pisces": "Ryby"
+        },
+        "settings": {
+            "title": "Ustawienia",
+            "tabs": {
+                "general": "Ustawienia Ogólne",
+                "character": "Ustawienia Postaci",
+                "weather": "Pogoda",
+                "purchases": "Historia Zakupów",
+                "reset": "Resetuj Ustawienia"
+            },
+            "general": {
+                "title": "Ustawienia Ogólne",
+                "description": "Edytuj swoje preferencje ogólne.",
+                "fps_mode": {
+                    "label": "Tryb FPS",
+                    "description": "Wyłącza rozmycie i efekty pogodowe dla lepszej wydajności."
+                },
+                "cinematic_mode": {
+                    "label": "Tryb Kinowy",
+                    "description": "Dodaje czarne pasy na górze i dole ekranu."
+                },
+                "cam_distance": {
+                    "label": "Odległość Kamery",
+                    "description": "Dostosowuje odległość kamery od postaci.",
+                    "placeholder": "Wybierz",
+                    "selection": {
+                        "close": "Blisko",
+                        "far": "Daleko"
+                    }
+                },
+                "filter": {
+                    "label": "Filtr",
+                    "description": "Nakłada filtr wizualny na ekran.",
+                    "placeholder": "Wybierz"
+                }
+            },
+            "weather": {
+                "title": "Ustawienia Pogody",
+                "description": "Dostosuj czas i pogodę w grze.",
+                "clock": {
+                    "label": "Zegar",
+                    "description": "Ustaw czas w grze."
+                },
+                "weather_type": {
+                    "label": "Typ Pogody",
+                    "description": "Wybierz preferowaną pogodę.",
+                    "placeholder": "Wybierz",
+                    "selection": {
+                        "clear": "Przejrzyście",
+                        "extrasunny": "Bardzo Słonecznie",
+                        "clouds": "Chmury",
+                        "overcast": "Zachmurzenie",
+                        "rain": "Deszcz",
+                        "thunder": "Burza",
+                        "smog": "Smog",
+                        "fog": "Mgła",
+                        "xmas": "Święta",
+                        "snowlight": "Lekki Śnieg",
+                        "blizzard": "Zamieć",
+                        "snow": "Śnieg",
+                        "neutral": "Neutralna"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "Historia Zakupów",
+                "description": "Przejrzyj wszystkie swoje transakcje.",
+                "redeem_title": "Użyj Kodu",
+                "input_placeholder": "Wpisz kod tutaj...",
+                "submit": "Użyj",
+                "checking": "Sprawdzanie...",
+                "no_history": "Nie masz jeszcze historii zakupów.",
+                "table": {
+                    "product": "Produkt",
+                    "date": "Data",
+                    "status": "Status"
+                },
+                "status": {
+                    "completed": "Zakończono",
+                    "pending": "Oczekiwanie",
+                    "refunded": "Zwrócono"
+                }
+            },
+            "character": {
+                "title": "Ustawienia Postaci",
+                "description": "Dostosuj wygląd i preferencje swojej postaci.",
+                "music": {
+                    "title": "Odtwarzacz Muzyki",
+                    "description": "Odtwarzaj muzykę w tle z YouTube.",
+                    "url_placeholder": "Wklej URL YouTube tutaj...",
+                    "load": "Wczytaj",
+                    "delete": "Usuń",
+                    "no_track": "Brak wczytanego utworu",
+                    "enter_url": "Wprowadź URL YouTube"
+                },
+                "partner": {
+                    "title": "Postać Partnera",
+                    "description": "Zarządzaj swoją postacią partnera.",
+                    "button": "Usuń Partnera"
+                },
+                "height": {
+                    "title": "Wzrost Postaci",
+                    "description": "Dostosuj wzrost postaci. Ta zmiana jest stała!",
+                    "required": "Wymagana regulacja"
+                },
+                "backstory": {
+                    "title": "Historia Postaci",
+                    "description": "Napisz historię swojej postaci. Zostanie wyświetlona na karcie postaci.",
+                    "placeholder": "Napisz historię swojej postaci...",
+                    "save": "Zapisz Historię",
+                    "required": "Wymagane pisanie"
+                },
+                "badge": {
+                    "title": "Własna Odznaka",
+                    "description": "Stwórz własną odznakę z emoji i tekstem.",
+                    "emoji_label": "Wybierz Emoji",
+                    "text_label": "Tekst Odznaki",
+                    "text_placeholder": "Wpisz tekst...",
+                    "preview_placeholder": "Twoja odznaka",
+                    "save": "Zapisz Odznakę"
+                }
+            },
+            "reset": {
+                "title": "Resetuj Ustawienia",
+                "description": "Przywróć wszystkie ustawienia do wartości domyślnych.",
+                "confirm": "Tak, Resetuj Ustawienia",
+                "cancel": "Anuluj"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "Imię musi mieć co najmniej %s znaków",
+                "max": "Imię może mieć maksymalnie %s znaków",
+                "required": "Imię jest wymagane",
+                "regex": "Dozwolone są tylko litery"
+            },
+            "lastname": {
+                "min": "Nazwisko musi mieć co najmniej %s znaków",
+                "max": "Nazwisko może mieć maksymalnie %s znaków",
+                "required": "Nazwisko jest wymagane",
+                "regex": "Dozwolone są tylko litery"
+            },
+            "birthdate": {
+                "required": "Data urodzenia jest wymagana",
+                "invalid": "Nieprawidłowa data",
+                "age": "Musisz mieć co najmniej 18 lat"
+            },
+            "gender": {
+                "required": "Płeć jest wymagana",
+                "regex": "Znaki specjalne nie są dozwolone"
+            },
+            "nationality": {
+                "required": "Narodowość jest wymagana",
+                "regex": "Znaki specjalne nie są dozwolone"
+            },
+            "backstory": {
+                "min": "Historia musi mieć co najmniej %s znaków",
+                "max": "Historia może mieć maksymalnie %s znaków"
+            },
+            "redeem": {
+                "regex": "Kod zawiera nieprawidłowe znaki"
+            }
+        },
+        "newCharacter": {
+            "welcome": "Witaj,",
+            "stranger": "Nieznajomy",
+            "description": "Stwórz nową postać, aby rozpocząć przygodę. Twój los czeka!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "Nieprawidłowy identyfikator transakcji.",
+            "transaction_not_found_or_already_claimed": "Transakcja nie została znaleziona lub już została wykorzystana.",
+            "rate_limited": "Zbyt wiele prób. Spróbuj ponownie później. Pozostały czas: %s"
+        },
+        "success": "Kod został pomyślnie wykorzystany"
+    },
+    "partnerInvite": {
+        "title": "Zaproszenie Partnera",
+        "description": "Otrzymałeś zaproszenie partnerskie od %s. Zaakceptowanie uczyni was partnerami.",
+        "accept": "Akceptuj",
+        "decline": "Odrzuć",
+        "accepted": "%s zaakceptował zaproszenie partnerskie.",
+        "declined": "%s odrzucił zaproszenie partnerskie.",
+        "invite_sent": "Zaproszenie partnerskie wysłane.",
+        "couple": "Para",
+        "best_friend": "Najlepszy Przyjaciel"
+    }
+}

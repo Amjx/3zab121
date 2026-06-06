@@ -1,0 +1,264 @@
+{
+    "exit": "لقد خرجت من اللعبة.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "ابدأ اللعب",
+                "description": "ابدأ رحلتك"
+            },
+            "settings": {
+                "label": "الإعدادات",
+                "description": "اضبط تفضيلاتك"
+            },
+            "credits": {
+                "label": "الاعتمادات",
+                "description": "عرض الفريق"
+            },
+            "store": {
+                "label": "المتجر",
+                "description": "سوق الألعاب"
+            },
+            "quit": {
+                "label": "الخروج من اللعبة",
+                "description": "وداعاً!"
+            }
+        },
+        "register": {
+            "title": "تسجيل الشخصية",
+            "description": "يرجى إدخال بياناتك للتسجيل.",
+            "firstname": {
+                "label": "الاسم الأول",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "اسم العائلة",
+                "placeholder": "Doe"
+            },
+            "dob": "تاريخ الميلاد",
+            "gender": {
+                "label": "الجنس",
+                "placeholder": "اختر الجنس",
+                "sex": {
+                    "male": "ذكر",
+                    "female": "أنثى"
+                }
+            },
+            "height": "الطول",
+            "backstory": {
+                "label": "القصة الخلفية",
+                "placeholder": "اكتب قصة شخصيتك..."
+            },
+            "nationality": {
+                "label": "الجنسية",
+                "placeholder": "اختر الجنسية"
+            },
+            "submit": "إنشاء الشخصية"
+        },
+        "delete": {
+            "title": "حذف الشخصية",
+            "description": "هل أنت متأكد أنك تريد حذف هذه الشخصية؟ لا يمكن التراجع عن هذا الإجراء.",
+            "confirm": "حذف الشخصية",
+            "cancel": "إلغاء"
+        },
+        "zodiacSigns": {
+            "aries": "الحمل",
+            "taurus": "الثور",
+            "gemini": "الجوزاء",
+            "cancer": "السرطان",
+            "leo": "الأسد",
+            "virgo": "العذراء",
+            "libra": "الميزان",
+            "scorpio": "العقرب",
+            "sagittarius": "القوس",
+            "capricorn": "الجدي",
+            "aquarius": "الدلو",
+            "pisces": "الحوت"
+        },
+        "settings": {
+            "title": "الإعدادات",
+            "tabs": {
+                "general": "الإعدادات العامة",
+                "character": "إعدادات الشخصية",
+                "weather": "إعدادات الطقس",
+                "purchases": "سجل المشتريات",
+                "reset": "إعادة تعيين"
+            },
+            "general": {
+                "title": "الإعدادات العامة",
+                "description": "تعديل تفضيلاتك العامة.",
+                "fps_mode": {
+                    "label": "وضع FPS",
+                    "description": "تعطيل تأثيرات الغباش وجزيئات الطقس لتحسين الأداء."
+                },
+                "cinematic_mode": {
+                    "label": "الوضع السينمائي",
+                    "description": "إضافة أشرطة سوداء سينمائية في أعلى وأسفل الشاشة."
+                },
+                "cam_distance": {
+                    "label": "مسافة الكاميرا",
+                    "description": "تعديل مسافة الكاميرا عن الشخصية.",
+                    "placeholder": "اختر",
+                    "selection": {
+                        "close": "قريب",
+                        "far": "بعيد"
+                    }
+                },
+                "filter": {
+                    "label": "الفلتر",
+                    "description": "تطبيق فلتر بصري على الشاشة.",
+                    "placeholder": "اختر"
+                }
+            },
+            "weather": {
+                "title": "إعدادات الطقس",
+                "description": "تخصيص وقت اللعبة والطقس.",
+                "clock": {
+                    "label": "الساعة",
+                    "description": "ضبط وقت اللعبة."
+                },
+                "weather_type": {
+                    "label": "نوع الطقس",
+                    "description": "اختر نوع الطقس المفضل لديك.",
+                    "placeholder": "اختر",
+                    "selection": {
+                        "clear": "صافي",
+                        "extrasunny": "مشمس جداً",
+                        "clouds": "غائم",
+                        "overcast": "مكفهر",
+                        "rain": "ممطر",
+                        "thunder": "عاصف",
+                        "smog": "ضباب دخاني",
+                        "fog": "ضبابي",
+                        "xmas": "عيد الميلاد",
+                        "snowlight": "ثلج خفيف",
+                        "blizzard": "عاصفة ثلجية",
+                        "snow": "مثلج",
+                        "neutral": "محايد"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "سجل المشتريات",
+                "description": "عرض جميع معاملات الشراء الخاصة بك.",
+                "redeem_title": "استرداد الكود",
+                "input_placeholder": "أدخل الكود هنا...",
+                "submit": "مطالبة",
+                "checking": "جاري التحقق...",
+                "no_history": "ليس لديك سجل مشتريات بعد.",
+                "table": {
+                    "product": "المنتج",
+                    "date": "التاريخ",
+                    "status": "الحالة"
+                },
+                "status": {
+                    "completed": "مكتمل",
+                    "pending": "قيد الانتظار",
+                    "refunded": "مسترجع"
+                }
+            },
+            "character": {
+                "title": "إعدادات الشخصية",
+                "description": "تخصيص مظهر شخصيتك وتفضيلاتها.",
+                "music": {
+                    "title": "مشغل الموسيقى",
+                    "description": "تشغيل موسيقى خلفية من YouTube.",
+                    "url_placeholder": "القص رابط YouTube هنا...",
+                    "load": "تحميل",
+                    "delete": "حذف",
+                    "no_track": "لا يوجد مسار محمل",
+                    "enter_url": "أدخل رابط YouTube"
+                },
+                "partner": {
+                    "title": "شخصية الشريك",
+                    "description": "إدارة شخصية الشريك الخاصة بك.",
+                    "button": "حذف الشريك"
+                },
+                "height": {
+                    "title": "طول الشخصية",
+                    "description": "تعديل طول الشخصية. تذكر أن هذا التعديل دائم!",
+                    "required": "التعديل مطلوب"
+                },
+                "backstory": {
+                    "title": "قصة الشخصية",
+                    "description": "اكتب قصة شخصيتك. سيتم عرضها على بطاقة شخصيتك.",
+                    "placeholder": "اكتب قصة شخصيتك...",
+                    "save": "حفظ القصة",
+                    "required": "الكتابة مطلوبة"
+                },
+                "badge": {
+                    "title": "شارة مخصصة",
+                    "description": "إنشاء شارة خاصة بك مع إيموجي ونص.",
+                    "emoji_label": "اختر إيموجي",
+                    "text_label": "نص الشارة",
+                    "text_placeholder": "أدخل نص الشارة...",
+                    "preview_placeholder": "شارتك",
+                    "save": "حفظ الشارة"
+                }
+            },
+            "reset": {
+                "title": "إعادة تعيين الإعدادات",
+                "description": "إعادة تعيين كافة الإعدادات إلى القيم الافتراضية.",
+                "confirm": "نعم، إعادة تعيين",
+                "cancel": "إلغاء"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "يجب أن يحتوي الاسم على %s أحرف على الأقل",
+                "max": "يجب ألا يتجاوز الاسم %s حرفاً",
+                "required": "الاسم مطلوب",
+                "regex": "يُسمح بالحروف فقط"
+            },
+            "lastname": {
+                "min": "يجب أن يحتوي اللقب على %s أحرف على الأقل",
+                "max": "يجب ألا يتجاوز اللقب %s حرفاً",
+                "required": "اللقب مطلوب",
+                "regex": "يُسمح بالحروف فقط"
+            },
+            "birthdate": {
+                "required": "تاريخ الميلاد مطلوب",
+                "invalid": "تاريخ غير صالح",
+                "age": "يجب أن يكون عمرك 18 عاماً على الأقل"
+            },
+            "gender": {
+                "required": "الجنس مطلوب",
+                "regex": "لا يُسمح بالرموز الخاصة"
+            },
+            "nationality": {
+                "required": "الجنسية مطلوبة",
+                "regex": "لا يُسمح بالرموز الخاصة"
+            },
+            "backstory": {
+                "min": "يجب أن تحتوي القصة على %s أحرف على الأقل",
+                "max": "يجب ألا تتجاوز القصة %s حرف"
+            },
+            "redeem": {
+                "regex": "الرمز يحتوي على أحرف غير صالحة"
+            }
+        },
+        "newCharacter": {
+            "welcome": "أهلاً،",
+            "stranger": "غريب",
+            "description": "أنشئ شخصية جديدة لبدء مغامرتك. مصيرك بانتظارك!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "معرف المعاملة غير صالح.",
+            "transaction_not_found_or_already_claimed": "المعاملة غير موجودة أو تم استردادها بالفعل.",
+            "rate_limited": "لقد تجاوزت الحد المسموح. يرجى المحاولة لاحقاً. الوقت المتبقي: %s"
+        },
+        "success": "تم استرداد الكود بنجاح"
+    },
+    "partnerInvite": {
+        "title": "دعوة شريك",
+        "description": "لقد تلقيت دعوة شراكة من %s. القبول سيجعلك شريكاً مع هذا الشخص.",
+        "accept": "قبول",
+        "decline": "رفض",
+        "accepted": "%s قبل دعوة الشراكة.",
+        "declined": "%s رفض دعوة الشراكة.",
+        "invite_sent": "تم إرسال دعوة الشراكة.",
+        "couple": "زوجان",
+        "best_friend": "أفضل صديق"
+    }
+}
