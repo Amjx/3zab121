@@ -1,0 +1,264 @@
+{
+    "exit": "Du har lämnat spelet.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "Spela",
+                "description": "Börja din resa"
+            },
+            "settings": {
+                "label": "Inställningar",
+                "description": "Justera dina preferenser"
+            },
+            "credits": {
+                "label": "Upphovsmän",
+                "description": "Visa teamet"
+            },
+            "store": {
+                "label": "Butik",
+                "description": "Spelmarknad"
+            },
+            "quit": {
+                "label": "Avsluta spelet",
+                "description": "Hejdå!"
+            }
+        },
+        "register": {
+            "title": "Karaktärsregistrering",
+            "description": "Vänligen fyll i dina uppgifter för att registrera dig.",
+            "firstname": {
+                "label": "Förnamn",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "Efternamn",
+                "placeholder": "Doe"
+            },
+            "dob": "Födelsedatum",
+            "gender": {
+                "label": "Kön",
+                "placeholder": "Välj kön",
+                "sex": {
+                    "male": "Man",
+                    "female": "Kvinna"
+                }
+            },
+            "height": "Längd",
+            "backstory": {
+                "label": "Bakgrundshistoria",
+                "placeholder": "Skriv din karaktärs bakgrundshistoria..."
+            },
+            "nationality": {
+                "label": "Nationalitet",
+                "placeholder": "Välj nationalitet"
+            },
+            "submit": "Skapa karaktär"
+        },
+        "delete": {
+            "title": "Radera karaktär",
+            "description": "Är du säker på att du vill radera denna karaktär? Detta kan inte ångras.",
+            "confirm": "Radera karaktär",
+            "cancel": "Avbryt"
+        },
+        "zodiacSigns": {
+            "aries": "Väduren",
+            "taurus": "Oxen",
+            "gemini": "Tvillingarna",
+            "cancer": "Kräftan",
+            "leo": "Lejonet",
+            "virgo": "Jungfrun",
+            "libra": "Vågen",
+            "scorpio": "Skorpionen",
+            "sagittarius": "Skytten",
+            "capricorn": "Stenbocken",
+            "aquarius": "Vattumannen",
+            "pisces": "Fiskarna"
+        },
+        "settings": {
+            "title": "Inställningar",
+            "tabs": {
+                "general": "Allmänna inställningar",
+                "character": "Karaktärsinställningar",
+                "weather": "Väder",
+                "purchases": "Köphistorik",
+                "reset": "Återställ inställningar"
+            },
+            "general": {
+                "title": "Allmänna inställningar",
+                "description": "Redigera dina allmänna preferenser.",
+                "fps_mode": {
+                    "label": "FPS-läge",
+                    "description": "Stänger av oskärpa och vädereffekter för bättre prestanda."
+                },
+                "cinematic_mode": {
+                    "label": "Filmläge",
+                    "description": "Lägger till svarta fält i över- och underkant av skärmen."
+                },
+                "cam_distance": {
+                    "label": "Kameraavstånd",
+                    "description": "Justerar avståndet mellan kameran och din karaktär.",
+                    "placeholder": "Välj",
+                    "selection": {
+                        "close": "Nära",
+                        "far": "Långt bort"
+                    }
+                },
+                "filter": {
+                    "label": "Filter",
+                    "description": "Applicerar ett visuellt filter på skärmen.",
+                    "placeholder": "Välj"
+                }
+            },
+            "weather": {
+                "title": "Väderinställningar",
+                "description": "Anpassa tid och väder i spelet.",
+                "clock": {
+                    "label": "Klocka",
+                    "description": "Ställ in speltid."
+                },
+                "weather_type": {
+                    "label": "Vädertyp",
+                    "description": "Välj ditt favoritväder.",
+                    "placeholder": "Välj",
+                    "selection": {
+                        "clear": "Klart",
+                        "extrasunny": "Mycket soligt",
+                        "clouds": "Molnigt",
+                        "overcast": "Mulet",
+                        "rain": "Regn",
+                        "thunder": "Åska",
+                        "smog": "Smog",
+                        "fog": "Dimma",
+                        "xmas": "Jul",
+                        "snowlight": "Lätt snö",
+                        "blizzard": "Snöstorm",
+                        "snow": "Snö",
+                        "neutral": "Neutralt"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "Köphistorik",
+                "description": "Visa alla dina köptransaktioner.",
+                "redeem_title": "Lös in kod",
+                "input_placeholder": "Skriv in kod här...",
+                "submit": "Lös in",
+                "checking": "Kontrollerar...",
+                "no_history": "Du har ingen köphistorik än.",
+                "table": {
+                    "product": "Produkt",
+                    "date": "Datum",
+                    "status": "Status"
+                },
+                "status": {
+                    "completed": "Slutförd",
+                    "pending": "Väntande",
+                    "refunded": "Återbetalad"
+                }
+            },
+            "character": {
+                "title": "Karaktärsinställningar",
+                "description": "Anpassa din karaktärs utseende och preferenser.",
+                "music": {
+                    "title": "Musikspelare",
+                    "description": "Spela bakgrundsmusik från YouTube.",
+                    "url_placeholder": "Klistra in YouTube-URL här...",
+                    "load": "Ladda",
+                    "delete": "Radera",
+                    "no_track": "Ingen låt laddad",
+                    "enter_url": "Ange en YouTube-URL"
+                },
+                "partner": {
+                    "title": "Partnerkaraktär",
+                    "description": "Hantera din partnerkaraktär.",
+                    "button": "Ta bort Partner"
+                },
+                "height": {
+                    "title": "Karaktärslängd",
+                    "description": "Justera karaktärens längd. Denna ändring är permanent!",
+                    "required": "Justering krävs"
+                },
+                "backstory": {
+                    "title": "Karaktärsbakgrund",
+                    "description": "Skriv din karaktärs bakgrundshistoria. Detta visas på ditt karaktärskort.",
+                    "placeholder": "Skriv din karaktärs bakgrundshistoria...",
+                    "save": "Spara Bakgrund",
+                    "required": "Skrivning krävs"
+                },
+                "badge": {
+                    "title": "Eget märke",
+                    "description": "Skapa ditt eget speciella märke med emoji och text.",
+                    "emoji_label": "Välj Emoji",
+                    "text_label": "Märkestext",
+                    "text_placeholder": "Skriv text...",
+                    "preview_placeholder": "Ditt märke",
+                    "save": "Spara märke"
+                }
+            },
+            "reset": {
+                "title": "Återställ inställningar",
+                "description": "Återställ alla inställningar till standardvärden.",
+                "confirm": "Ja, återställ inställningar",
+                "cancel": "Avbryt"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "Förnamn måste ha minst %s tecken",
+                "max": "Förnamn får ha högst %s tecken",
+                "required": "Förnamn krävs",
+                "regex": "Endast bokstäver är tillåtna"
+            },
+            "lastname": {
+                "min": "Efternamn måste ha minst %s tecken",
+                "max": "Efternamn får ha högst %s tecken",
+                "required": "Efternamn krävs",
+                "regex": "Endast bokstäver är tillåtna"
+            },
+            "birthdate": {
+                "required": "Födelsedatum krävs",
+                "invalid": "Ogiltigt datum",
+                "age": "Du måste vara minst 18 år gammal"
+            },
+            "gender": {
+                "required": "Kön krävs",
+                "regex": "Specialtecken är inte tillåtna"
+            },
+            "nationality": {
+                "required": "Nationalitet krävs",
+                "regex": "Specialtecken är inte tillåtna"
+            },
+            "backstory": {
+                "min": "Bakgrundshistoria måste ha minst %s tecken",
+                "max": "Bakgrundshistoria får ha högst %s tecken"
+            },
+            "redeem": {
+                "regex": "Koden innehåller ogiltiga tecken"
+            }
+        },
+        "newCharacter": {
+            "welcome": "Välkommen,",
+            "stranger": "Främling",
+            "description": "Skapa en ny karaktär för att börja ditt äventyr. Ditt öde väntar!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "Ogiltigt transaktions-ID.",
+            "transaction_not_found_or_already_claimed": "Transaktionen hittades inte eller har redan lösts in.",
+            "rate_limited": "För många försök. Försök igen senare. Återstående tid: %s"
+        },
+        "success": "Koden har lösts in"
+    },
+    "partnerInvite": {
+        "title": "Partnerinbjudan",
+        "description": "Du har fått en partnerinbjudan från %s. Att acceptera gör er till partners.",
+        "accept": "Acceptera",
+        "decline": "Neka",
+        "accepted": "%s accepterade partnerinbjudan.",
+        "declined": "%s nekade partnerinbjudan.",
+        "invite_sent": "Partnerinbjudan skickad.",
+        "couple": "Par",
+        "best_friend": "Bästa Vän"
+    }
+}

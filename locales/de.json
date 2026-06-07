@@ -1,0 +1,264 @@
+{
+    "exit": "Du hast das Spiel verlassen.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "Spiel starten",
+                "description": "Beginne deine Reise"
+            },
+            "settings": {
+                "label": "Einstellungen",
+                "description": "Passe deine Einstellungen an"
+            },
+            "credits": {
+                "label": "Mitwirkende",
+                "description": "Team anzeigen"
+            },
+            "store": {
+                "label": "Shop",
+                "description": "Gaming-Markt"
+            },
+            "quit": {
+                "label": "Spiel beenden",
+                "description": "Auf Wiedersehen!"
+            }
+        },
+        "register": {
+            "title": "Charakterregistrierung",
+            "description": "Bitte gib deine Daten ein, um dich zu registrieren.",
+            "firstname": {
+                "label": "Vorname",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "Nachname",
+                "placeholder": "Doe"
+            },
+            "dob": "Geburtsdatum",
+            "gender": {
+                "label": "Geschlecht",
+                "placeholder": "Wähle Geschlecht",
+                "sex": {
+                    "male": "Männlich",
+                    "female": "Weiblich"
+                }
+            },
+            "height": "Größe",
+            "backstory": {
+                "label": "Hintergrundgeschichte",
+                "placeholder": "Schreibe die Hintergrundgeschichte deines Charakters..."
+            },
+            "nationality": {
+                "label": "Nationalität",
+                "placeholder": "Wähle Nationalität"
+            },
+            "submit": "Charakter erstellen"
+        },
+        "delete": {
+            "title": "Charakter löschen",
+            "description": "Bist du sicher, dass du diesen Charakter löschen möchtest? Dies kann nicht rückgängig gemacht werden.",
+            "confirm": "Charakter löschen",
+            "cancel": "Abbrechen"
+        },
+        "zodiacSigns": {
+            "aries": "Widder",
+            "taurus": "Stier",
+            "gemini": "Zwillinge",
+            "cancer": "Krebs",
+            "leo": "Löwe",
+            "virgo": "Jungfrau",
+            "libra": "Waage",
+            "scorpio": "Skorpion",
+            "sagittarius": "Schütze",
+            "capricorn": "Steinbock",
+            "aquarius": "Wassermann",
+            "pisces": "Fische"
+        },
+        "settings": {
+            "title": "Einstellungen",
+            "tabs": {
+                "general": "Allgemein",
+                "character": "Charakter",
+                "weather": "Wetter",
+                "purchases": "Käufe",
+                "reset": "Zurücksetzen"
+            },
+            "general": {
+                "title": "Allgemeine Einstellungen",
+                "description": "Passe deine allgemeinen Vorlieben an.",
+                "fps_mode": {
+                    "label": "FPS-Modus",
+                    "description": "Deaktiviere Unschärfeeffekte und Wetterpartikel für bessere Leistung."
+                },
+                "cinematic_mode": {
+                    "label": "Kinomodus",
+                    "description": "Fügt schwarze Balken oben und unten am Bildschirm hinzu."
+                },
+                "cam_distance": {
+                    "label": "Kameraabstand",
+                    "description": "Stelle den Abstand der Kamera zu deinem Charakter ein.",
+                    "placeholder": "Auswählen",
+                    "selection": {
+                        "close": "Nah",
+                        "far": "Fern"
+                    }
+                },
+                "filter": {
+                    "label": "Filter",
+                    "description": "Wende einen visuellen Filter auf den Bildschirm an.",
+                    "placeholder": "Auswählen"
+                }
+            },
+            "weather": {
+                "title": "Wettereinstellungen",
+                "description": "Passe die In-Game-Zeit und das Wetter an.",
+                "clock": {
+                    "label": "Uhrzeit",
+                    "description": "Stelle die Zeit im Spiel ein."
+                },
+                "weather_type": {
+                    "label": "Wettertyp",
+                    "description": "Wähle dein bevorzugtes Wetter.",
+                    "placeholder": "Auswählen",
+                    "selection": {
+                        "clear": "Klar",
+                        "extrasunny": "Sehr Sonnig",
+                        "clouds": "Bewölkt",
+                        "overcast": "Bedeckt",
+                        "rain": "Regen",
+                        "thunder": "Gewitter",
+                        "smog": "Smog",
+                        "fog": "Nebel",
+                        "xmas": "Weihnachten",
+                        "snowlight": "Leichter Schnee",
+                        "blizzard": "Schneesturm",
+                        "snow": "Schnee",
+                        "neutral": "Neutral"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "Kaufhistorie",
+                "description": "Sieh dir alle deine Transaktionen an.",
+                "redeem_title": "Code einlösen",
+                "input_placeholder": "Code hier eingeben...",
+                "submit": "Einlösen",
+                "checking": "Prüfe...",
+                "no_history": "Du hast noch keine Kaufhistorie.",
+                "table": {
+                    "product": "Produkt",
+                    "date": "Datum",
+                    "status": "Status"
+                },
+                "status": {
+                    "completed": "Abgeschlossen",
+                    "pending": "Ausstehend",
+                    "refunded": "Erstattet"
+                }
+            },
+            "character": {
+                "title": "Charaktereinstellungen",
+                "description": "Passe das Aussehen deines Charakters an.",
+                "music": {
+                    "title": "Musikplayer",
+                    "description": "Spiele Hintergrundmusik von YouTube ab.",
+                    "url_placeholder": "YouTube URL hier einfügen...",
+                    "load": "Laden",
+                    "delete": "Löschen",
+                    "no_track": "Kein Titel geladen",
+                    "enter_url": "Gib eine YouTube URL ein"
+                },
+                "partner": {
+                    "title": "Partner Charakter",
+                    "description": "Verwalte deinen Partner-Charakter.",
+                    "button": "Partner löschen"
+                },
+                "height": {
+                    "title": "Charaktergröße",
+                    "description": "Passe die Größe an. Achtung: Diese Änderung ist dauerhaft!",
+                    "required": "Anpassung erforderlich"
+                },
+                "backstory": {
+                    "title": "Charakter-Hintergrundgeschichte",
+                    "description": "Schreibe die Hintergrundgeschichte deines Charakters. Diese wird auf deiner Charakterkarte angezeigt.",
+                    "placeholder": "Schreibe die Hintergrundgeschichte deines Charakters...",
+                    "save": "Hintergrundgeschichte speichern",
+                    "required": "Schreiben erforderlich"
+                },
+                "badge": {
+                    "title": "Eigener Badge",
+                    "description": "Erstelle einen Badge mit Emoji und Text.",
+                    "emoji_label": "Emoji wählen",
+                    "text_label": "Badge Text",
+                    "text_placeholder": "Text eingeben...",
+                    "preview_placeholder": "Dein Badge",
+                    "save": "Badge speichern"
+                }
+            },
+            "reset": {
+                "title": "Zurücksetzen",
+                "description": "Setze alle Einstellungen auf Standardwerte zurück.",
+                "confirm": "Ja, Zurücksetzen",
+                "cancel": "Abbrechen"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "Vorname muss mindestens %s Zeichen haben",
+                "max": "Vorname darf maximal %s Zeichen haben",
+                "required": "Vorname ist erforderlich",
+                "regex": "Nur Buchstaben sind erlaubt"
+            },
+            "lastname": {
+                "min": "Nachname muss mindestens %s Zeichen haben",
+                "max": "Nachname darf maximal %s Zeichen haben",
+                "required": "Nachname ist erforderlich",
+                "regex": "Nur Buchstaben sind erlaubt"
+            },
+            "birthdate": {
+                "required": "Geburtsdatum ist erforderlich",
+                "invalid": "Ungültiges Datum",
+                "age": "Du musst mindestens 18 Jahre alt sein"
+            },
+            "gender": {
+                "required": "Geschlecht ist erforderlich",
+                "regex": "Keine Sonderzeichen erlaubt"
+            },
+            "nationality": {
+                "required": "Nationalität ist erforderlich",
+                "regex": "Keine Sonderzeichen erlaubt"
+            },
+            "backstory": {
+                "min": "Hintergrundgeschichte muss mindestens %s Zeichen haben",
+                "max": "Hintergrundgeschichte darf maximal %s Zeichen haben"
+            },
+            "redeem": {
+                "regex": "Code enthält ungültige Zeichen"
+            }
+        },
+        "newCharacter": {
+            "welcome": "Willkommen,",
+            "stranger": "Fremder",
+            "description": "Erstelle einen neuen Charakter, um dein Abenteuer zu beginnen. Dein Schicksal wartet!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "Ungültige Transaktions-ID.",
+            "transaction_not_found_or_already_claimed": "Transaktion nicht gefunden oder bereits eingelöst.",
+            "rate_limited": "Du wirst ratelimited. Bitte versuche es später erneut. Verbleibende Zeit: %s"
+        },
+        "success": "Code erfolgreich eingelöst"
+    },
+    "partnerInvite": {
+        "title": "Partner-Einladung",
+        "description": "Du hast eine Partner-Einladung von %s erhalten. Die Annahme macht euch zu Partnern.",
+        "accept": "Annehmen",
+        "decline": "Ablehnen",
+        "accepted": "%s hat die Partner-Einladung angenommen.",
+        "declined": "%s hat die Partner-Einladung abgelehnt.",
+        "invite_sent": "Partner-Einladung gesendet.",
+        "couple": "Paar",
+        "best_friend": "Bester Freund"
+    }
+}

@@ -1,0 +1,264 @@
+{
+    "exit": "Vous avez quitté le jeu.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "Jouer",
+                "description": "Commencez votre aventure"
+            },
+            "settings": {
+                "label": "Paramètres",
+                "description": "Ajustez vos préférences"
+            },
+            "credits": {
+                "label": "Crédits",
+                "description": "Voir l'équipe"
+            },
+            "store": {
+                "label": "Boutique",
+                "description": "Marché du jeu"
+            },
+            "quit": {
+                "label": "Quitter le jeu",
+                "description": "Au revoir!"
+            }
+        },
+        "register": {
+            "title": "Inscription du Personnage",
+            "description": "Veuillez entrer vos détails pour vous inscrire.",
+            "firstname": {
+                "label": "Prénom",
+                "placeholder": "Jean"
+            },
+            "lastname": {
+                "label": "Nom de famille",
+                "placeholder": "Dupont"
+            },
+            "dob": "Date de Naissance",
+            "gender": {
+                "label": "Genre",
+                "placeholder": "Sélectionner le Genre",
+                "sex": {
+                    "male": "Masculin",
+                    "female": "Féminin"
+                }
+            },
+            "height": "Taille",
+            "backstory": {
+                "label": "Histoire",
+                "placeholder": "Écrivez l'histoire de votre personnage..."
+            },
+            "nationality": {
+                "label": "Nationalité",
+                "placeholder": "Sélectionner la Nationalité"
+            },
+            "submit": "Créer le Personnage"
+        },
+        "delete": {
+            "title": "Supprimer le Personnage",
+            "description": "Êtes-vous sûr de vouloir supprimer ce personnage ? Cette action est irréversible.",
+            "confirm": "Supprimer le Personnage",
+            "cancel": "Annuler"
+        },
+        "zodiacSigns": {
+            "aries": "Bélier",
+            "taurus": "Taureau",
+            "gemini": "Gémeaux",
+            "cancer": "Cancer",
+            "leo": "Lion",
+            "virgo": "Vierge",
+            "libra": "Balance",
+            "scorpio": "Scorpion",
+            "sagittarius": "Sagittaire",
+            "capricorn": "Capricorne",
+            "aquarius": "Verseau",
+            "pisces": "Poissons"
+        },
+        "settings": {
+            "title": "Paramètres",
+            "tabs": {
+                "general": "Paramètres Généraux",
+                "character": "Paramètres du Personnage",
+                "weather": "Paramètres Météo",
+                "purchases": "Historique d'Achats",
+                "reset": "Réinitialiser les Paramètres"
+            },
+            "general": {
+                "title": "Paramètres Généraux",
+                "description": "Ajustez vos préférences générales.",
+                "fps_mode": {
+                    "label": "Mode FPS",
+                    "description": "Désactivez les effets de flou et les particules météo pour améliorer les performances."
+                },
+                "cinematic_mode": {
+                    "label": "Mode Cinématique",
+                    "description": "Ajoutez des barres noires cinématiques en haut et en bas de l'écran."
+                },
+                "cam_distance": {
+                    "label": "Distance de la Caméra",
+                    "description": "Ajustez la distance de la caméra par rapport à votre personnage.",
+                    "placeholder": "Sélectionner",
+                    "selection": {
+                        "close": "Proche",
+                        "far": "Loin"
+                    }
+                },
+                "filter": {
+                    "label": "Filtre",
+                    "description": "Appliquez un filtre visuel à l'écran.",
+                    "placeholder": "Sélectionner"
+                }
+            },
+            "weather": {
+                "title": "Paramètres Météo",
+                "description": "Personnalisez l'heure et la météo du jeu.",
+                "clock": {
+                    "label": "Horloge",
+                    "description": "Définissez l'heure du jeu."
+                },
+                "weather_type": {
+                    "label": "Type de Météo",
+                    "description": "Sélectionnez votre type de météo préféré.",
+                    "placeholder": "Sélectionner",
+                    "selection": {
+                        "clear": "Dégagé",
+                        "extrasunny": "Très Ensoleillé",
+                        "clouds": "Nuageux",
+                        "overcast": "Couvert",
+                        "rain": "Pluvieux",
+                        "thunder": "Orageux",
+                        "smog": "Brumeux",
+                        "fog": "Brouillard",
+                        "xmas": "Noël",
+                        "snowlight": "Neige Légère",
+                        "blizzard": "Blizzard",
+                        "snow": "Neigeux",
+                        "neutral": "Neutre"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "Historique d'Achats",
+                "description": "Consultez toutes vos transactions d'achat.",
+                "redeem_title": "Échanger un Code",
+                "input_placeholder": "Entrez votre code ici...",
+                "submit": "Réclamer",
+                "checking": "Vérification...",
+                "no_history": "Vous n'avez pas encore d'historique d'achats.",
+                "table": {
+                    "product": "Produit",
+                    "date": "Date",
+                    "status": "Statut"
+                },
+                "status": {
+                    "completed": "Complété",
+                    "pending": "En Attente",
+                    "refunded": "Remboursé"
+                }
+            },
+            "character": {
+                "title": "Paramètres du Personnage",
+                "description": "Personnalisez l'apparence et les préférences de votre personnage.",
+                "music": {
+                    "title": "Lecteur de Musique",
+                    "description": "Jouez de la musique de fond pour votre personnage depuis YouTube.",
+                    "url_placeholder": "Collez l'URL YouTube ici...",
+                    "load": "Charger",
+                    "delete": "Supprimer",
+                    "no_track": "Aucune piste chargée",
+                    "enter_url": "Entrez une URL YouTube"
+                },
+                "partner": {
+                    "title": "Personnage Partenaire",
+                    "description": "Gérez votre personnage partenaire.",
+                    "button": "Supprimer le Partenaire"
+                },
+                "height": {
+                    "title": "Taille du Personnage",
+                    "description": "Ajustez la taille de votre personnage. n'oubliez pas que cela ne change pas une fois ajusté !",
+                    "required": "Ajustement requis"
+                },
+                "backstory": {
+                    "title": "Histoire du Personnage",
+                    "description": "Écrivez l'histoire de votre personnage. Ceci sera affiché sur votre carte de personnage.",
+                    "placeholder": "Écrivez l'histoire de votre personnage...",
+                    "save": "Enregistrer l'histoire",
+                    "required": "Écriture requise"
+                },
+                "badge": {
+                    "title": "Badge Personnalisé",
+                    "description": "Créez votre propre badge personnalisé avec un emoji et du texte.",
+                    "emoji_label": "Sélectionner un Emoji",
+                    "text_label": "Texte du Badge",
+                    "text_placeholder": "Entrez le texte du badge...",
+                    "preview_placeholder": "Votre Badge",
+                    "save": "Enregistrer le Badge"
+                }
+            },
+            "reset": {
+                "title": "Réinitialiser les Paramètres",
+                "description": "Réinitialisez tous vos paramètres aux valeurs par défaut.",
+                "confirm": "Oui, Réinitialiser les Paramètres",
+                "cancel": "Annuler"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "Le prénom doit contenir au moins %s caractères",
+                "max": "Le prénom doit contenir au maximum %s caractères",
+                "required": "Le prénom est requis",
+                "regex": "Seules les lettres sont autorisées"
+            },
+            "lastname": {
+                "min": "Le nom doit contenir au moins %s caractères",
+                "max": "Le nom doit contenir au maximum %s caractères",
+                "required": "Le nom est requis",
+                "regex": "Seules les lettres sont autorisées"
+            },
+            "birthdate": {
+                "required": "La date de naissance est requise",
+                "invalid": "Date invalide",
+                "age": "Vous devez avoir au moins 18 ans"
+            },
+            "gender": {
+                "required": "Le genre est requis",
+                "regex": "Aucun caractère spécial autorisé"
+            },
+            "nationality": {
+                "required": "La nationalité est requise",
+                "regex": "Aucun caractère spécial autorisé"
+            },
+            "backstory": {
+                "min": "L'histoire doit contenir au moins %s caractères",
+                "max": "L'histoire doit contenir au maximum %s caractères"
+            },
+            "redeem": {
+                "regex": "Le code contient des caractères invalides"
+            }
+        },
+        "newCharacter": {
+            "welcome": "Bienvenue,",
+            "stranger": "Étranger",
+            "description": "Créez un nouveau personnage pour commencer votre aventure. Votre destin vous attend!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "ID de transaction invalide.",
+            "transaction_not_found_or_already_claimed": "Transaction introuvable ou déjà réclamée.",
+            "rate_limited": "Vous êtes limité en débit. Veuillez réessayer plus tard. Temps restant : %s"
+        },
+        "success": "Transaction échangée avec succès"
+    },
+    "partnerInvite": {
+        "title": "Invitation Partenaire",
+        "description": "Vous avez reçu une invitation partenaire de %s. Accepter vous rendra partenaires avec cette personne.",
+        "accept": "Accepter",
+        "decline": "Décliner",
+        "accepted": "%s a accepté l'invitation partenaire.",
+        "declined": "%s a refusé l'invitation partenaire.",
+        "invite_sent": "Invitation partenaire envoyée.",
+        "couple": "Couple",
+        "best_friend": "Meilleur Ami"
+    }
+}

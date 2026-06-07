@@ -1,0 +1,264 @@
+{
+    "exit": "Ai părăsit jocul.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "Joacă",
+                "description": "Începe-ți călătoria"
+            },
+            "settings": {
+                "label": "Setări",
+                "description": "Ajustează preferințele tale"
+            },
+            "credits": {
+                "label": "Credite",
+                "description": "Vezi echipa"
+            },
+            "store": {
+                "label": "Magazin",
+                "description": "Piața de jocuri"
+            },
+            "quit": {
+                "label": "Ieși din joc",
+                "description": "La revedere!"
+            }
+        },
+        "register": {
+            "title": "Înregistrare Personaj",
+            "description": "Vă rugăm să introduceți datele pentru a vă înregistra.",
+            "firstname": {
+                "label": "Prenume",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "Nume",
+                "placeholder": "Doe"
+            },
+            "dob": "Data Nașterii",
+            "gender": {
+                "label": "Gen",
+                "placeholder": "Alege Genul",
+                "sex": {
+                    "male": "Masculin",
+                    "female": "Feminin"
+                }
+            },
+            "height": "Înălțime",
+            "backstory": {
+                "label": "Poveste",
+                "placeholder": "Scrie povestea personajului tău..."
+            },
+            "nationality": {
+                "label": "Naționalitate",
+                "placeholder": "Alege Naționalitatea"
+            },
+            "submit": "Creează Personajul"
+        },
+        "delete": {
+            "title": "Șterge Personajul",
+            "description": "Ești sigur că vrei să ștergi acest personaj? Această acțiune este ireversibilă.",
+            "confirm": "Șterge Personajul",
+            "cancel": "Anulează"
+        },
+        "zodiacSigns": {
+            "aries": "Berbec",
+            "taurus": "Taur",
+            "gemini": "Gemeni",
+            "cancer": "Rac",
+            "leo": "Leu",
+            "virgo": "Fecioară",
+            "libra": "Balanță",
+            "scorpio": "Scorpion",
+            "sagittarius": "Săgetător",
+            "capricorn": "Capricorn",
+            "aquarius": "Vărsător",
+            "pisces": "Pești"
+        },
+        "settings": {
+            "title": "Setări",
+            "tabs": {
+                "general": "Setări Generale",
+                "character": "Setări Personaj",
+                "weather": "Vreme",
+                "purchases": "Istoric Achiziții",
+                "reset": "Resetează Setările"
+            },
+            "general": {
+                "title": "Setări Generale",
+                "description": "Editează preferințele tale generale.",
+                "fps_mode": {
+                    "label": "Mod FPS",
+                    "description": "Dezactivează neclaritatea și efectele meteo pentru performanță mai bună."
+                },
+                "cinematic_mode": {
+                    "label": "Mod Cinematic",
+                    "description": "Adaugă bare negre în partea de sus și de jos a ecranului."
+                },
+                "cam_distance": {
+                    "label": "Distanța Camerei",
+                    "description": "Ajustează distanța camerei față de personaj.",
+                    "placeholder": "Alege",
+                    "selection": {
+                        "close": "Aproape",
+                        "far": "Departe"
+                    }
+                },
+                "filter": {
+                    "label": "Filtru",
+                    "description": "Aplică un filtru vizual pe ecran.",
+                    "placeholder": "Alege"
+                }
+            },
+            "weather": {
+                "title": "Setări Meteo",
+                "description": "Personalizează timpul și vremea în joc.",
+                "clock": {
+                    "label": "Ceas",
+                    "description": "Setează timpul jocului."
+                },
+                "weather_type": {
+                    "label": "Tip Vreme",
+                    "description": "Alege vremea preferată.",
+                    "placeholder": "Alege",
+                    "selection": {
+                        "clear": "Senin",
+                        "extrasunny": "Foarte Însorit",
+                        "clouds": "Noros",
+                        "overcast": "Închis",
+                        "rain": "Ploaie",
+                        "thunder": "Furtună",
+                        "smog": "Smog",
+                        "fog": "Ceață",
+                        "xmas": "Crăciun",
+                        "snowlight": "Zăpadă Ușoară",
+                        "blizzard": "Viscol",
+                        "snow": "Zăpadă",
+                        "neutral": "Neutral"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "Istoric Achiziții",
+                "description": "Vizualizează toate tranzacțiile tale de achiziție.",
+                "redeem_title": "Folosește Cod",
+                "input_placeholder": "Introdu codul aici...",
+                "submit": "Folosește",
+                "checking": "Se verifică...",
+                "no_history": "Nu ai încă un istoric de achiziții.",
+                "table": {
+                    "product": "Produs",
+                    "date": "Data",
+                    "status": "Status"
+                },
+                "status": {
+                    "completed": "Finalizat",
+                    "pending": "În așteptare",
+                    "refunded": "Rambursat"
+                }
+            },
+            "character": {
+                "title": "Setări Personaj",
+                "description": "Personalizează aspectul și preferințele personajului tău.",
+                "music": {
+                    "title": "Player Muzical",
+                    "description": "Redă muzică de fundal de pe YouTube.",
+                    "url_placeholder": "Lipește URL-ul YouTube aici...",
+                    "load": "Încarcă",
+                    "delete": "Șterge",
+                    "no_track": "Nicio piesă încărcată",
+                    "enter_url": "Introdu un URL YouTube"
+                },
+                "partner": {
+                    "title": "Personaj Partener",
+                    "description": "Gestionează personajul tău partener.",
+                    "button": "Șterge Partenerul"
+                },
+                "height": {
+                    "title": "Înălțime Personaj",
+                    "description": "Ajustează înălțimea personajului. Această modificare este permanentă!",
+                    "required": "Ajustare necesară"
+                },
+                "backstory": {
+                    "title": "Povestea Personajului",
+                    "description": "Scrie povestea personajului tău. Aceasta va fi afișată pe cardul personajului.",
+                    "placeholder": "Scrie povestea personajului tău...",
+                    "save": "Salvează Povestea",
+                    "required": "Scriere necesară"
+                },
+                "badge": {
+                    "title": "Insignă Personalizată",
+                    "description": "Creează-ți propria insignă specială cu emoji și text.",
+                    "emoji_label": "Alege Emoji",
+                    "text_label": "Text Insignă",
+                    "text_placeholder": "Introdu text...",
+                    "preview_placeholder": "Insigna ta",
+                    "save": "Salvează Insigna"
+                }
+            },
+            "reset": {
+                "title": "Resetează Setările",
+                "description": "Restabilește toate setările la valorile implicite.",
+                "confirm": "Da, Resetează Setările",
+                "cancel": "Anulează"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "Prenumele trebuie să aibă cel puțin %s caractere",
+                "max": "Prenumele poate avea maxim %s caractere",
+                "required": "Prenumele este obligatoriu",
+                "regex": "Sunt permise doar litere"
+            },
+            "lastname": {
+                "min": "Numele trebuie să aibă cel puțin %s caractere",
+                "max": "Numele poate avea maxim %s caractere",
+                "required": "Numele este obligatoriu",
+                "regex": "Sunt permise doar litere"
+            },
+            "birthdate": {
+                "required": "Data nașterii este obligatorie",
+                "invalid": "Dată invalidă",
+                "age": "Trebuie să ai cel puțin 18 ani"
+            },
+            "gender": {
+                "required": "Genul este obligatoriu",
+                "regex": "Caracterele speciale nu sunt permise"
+            },
+            "nationality": {
+                "required": "Naționalitatea este obligatorie",
+                "regex": "Caracterele speciale nu sunt permise"
+            },
+            "backstory": {
+                "min": "Povestea trebuie să aibă cel puțin %s caractere",
+                "max": "Povestea poate avea maxim %s caractere"
+            },
+            "redeem": {
+                "regex": "Codul conține caractere invalide"
+            }
+        },
+        "newCharacter": {
+            "welcome": "Bine ai venit,",
+            "stranger": "Străine",
+            "description": "Crează un personaj nou pentru a-ți începe aventura. Destinul tău te așteaptă!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "ID tranzacție nevalid.",
+            "transaction_not_found_or_already_claimed": "Tranzacția nu a fost găsită sau a fost deja folosită.",
+            "rate_limited": "Prea multe încercări. Te rugăm să încerci mai târziu. Timp rămas: %s"
+        },
+        "success": "Cod utilizat cu succes"
+    },
+    "partnerInvite": {
+        "title": "Invitație Partener",
+        "description": "Ai primit o invitație de parteneriat de la %s. Acceptarea te va face partener cu acea persoană.",
+        "accept": "Acceptă",
+        "decline": "Refuză",
+        "accepted": "%s a acceptat invitația de parteneriat.",
+        "declined": "%s a refuzat invitația de parteneriat.",
+        "invite_sent": "Invitația de parteneriat a fost trimisă.",
+        "couple": "Cuplu",
+        "best_friend": "Cel Mai Bun Prieten"
+    }
+}

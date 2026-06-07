@@ -1,0 +1,264 @@
+{
+    "exit": "Opustili jste hru.",
+    "nui": {
+        "menu": {
+            "playgame": {
+                "label": "Hrát hru",
+                "description": "Začněte svou cestu"
+            },
+            "settings": {
+                "label": "Nastavení",
+                "description": "Upravte své preference"
+            },
+            "credits": {
+                "label": "Tvůrci",
+                "description": "Zobrazit tým"
+            },
+            "store": {
+                "label": "Obchod",
+                "description": "Herní trh"
+            },
+            "quit": {
+                "label": "Ukončit hru",
+                "description": "Sbohem!"
+            }
+        },
+        "register": {
+            "title": "Registrace postavy",
+            "description": "Zadejte prosím své údaje pro registraci.",
+            "firstname": {
+                "label": "Jméno",
+                "placeholder": "John"
+            },
+            "lastname": {
+                "label": "Příjmení",
+                "placeholder": "Doe"
+            },
+            "dob": "Datum narození",
+            "gender": {
+                "label": "Pohlaví",
+                "placeholder": "Vyberte pohlaví",
+                "sex": {
+                    "male": "Muž",
+                    "female": "Žena"
+                }
+            },
+            "height": "Výška",
+            "backstory": {
+                "label": "Příběh postavy",
+                "placeholder": "Napište příběh vaší postavy..."
+            },
+            "nationality": {
+                "label": "Národnost",
+                "placeholder": "Vyberte národnost"
+            },
+            "submit": "Vytvořit postavu"
+        },
+        "delete": {
+            "title": "Smazat postavu",
+            "description": "Opravdu chcete tuto postavu smazat? Tuto akci nelze vrátit zpět.",
+            "confirm": "Smazat postavu",
+            "cancel": "Zrušit"
+        },
+        "zodiacSigns": {
+            "aries": "Beran",
+            "taurus": "Býk",
+            "gemini": "Blíženci",
+            "cancer": "Rak",
+            "leo": "Lev",
+            "virgo": "Panna",
+            "libra": "Váhy",
+            "scorpio": "Štír",
+            "sagittarius": "Střelec",
+            "capricorn": "Kozoroh",
+            "aquarius": "Vodnář",
+            "pisces": "Ryby"
+        },
+        "settings": {
+            "title": "Nastavení",
+            "tabs": {
+                "general": "Obecná nastavení",
+                "character": "Nastavení postavy",
+                "weather": "Počasí",
+                "purchases": "Historie nákupů",
+                "reset": "Resetovat nastavení"
+            },
+            "general": {
+                "title": "Obecná nastavení",
+                "description": "Upravte své obecné preference.",
+                "fps_mode": {
+                    "label": "FPS Mód",
+                    "description": "Vypne rozmazání a efekty počasí pro zvýšení výkonu."
+                },
+                "cinematic_mode": {
+                    "label": "Filmový mód",
+                    "description": "Přidá černé pruhy na horní a spodní část obrazovky."
+                },
+                "cam_distance": {
+                    "label": "Vzdálenost kamery",
+                    "description": "Nastavuje vzdálenost kamery od vaší postavy.",
+                    "placeholder": "Vyberte",
+                    "selection": {
+                        "close": "Blízko",
+                        "far": "Daleko"
+                    }
+                },
+                "filter": {
+                    "label": "Filtr",
+                    "description": "Aplikuje vizuální filtr na obrazovku.",
+                    "placeholder": "Vyberte"
+                }
+            },
+            "weather": {
+                "title": "Nastavení počasí",
+                "description": "Přizpůsobte si čas ve hře a počasí.",
+                "clock": {
+                    "label": "Čas",
+                    "description": "Nastavte herní čas."
+                },
+                "weather_type": {
+                    "label": "Typ počasí",
+                    "description": "Vyberte si preferované počasí.",
+                    "placeholder": "Vyberte",
+                    "selection": {
+                        "clear": "Jasno",
+                        "extrasunny": "Extra slunečno",
+                        "clouds": "Oblačno",
+                        "overcast": "Zataženo",
+                        "rain": "Déšť",
+                        "thunder": "Bouřka",
+                        "smog": "Smog",
+                        "fog": "Mlha",
+                        "xmas": "Vánoce",
+                        "snowlight": "Lehké sněžení",
+                        "blizzard": "Vánice",
+                        "snow": "Sníh",
+                        "neutral": "Neutrální"
+                    }
+                }
+            },
+            "purchases": {
+                "title": "Historie nákupů",
+                "description": "Zobrazit všechny vaše nákupní transakce.",
+                "redeem_title": "Uplatnit kód",
+                "input_placeholder": "Zadejte kód zde...",
+                "submit": "Uplatnit",
+                "checking": "Kontrola...",
+                "no_history": "Zatím nemáte žádnou historii nákupů.",
+                "table": {
+                    "product": "Produkt",
+                    "date": "Datum",
+                    "status": "Stav"
+                },
+                "status": {
+                    "completed": "Dokončeno",
+                    "pending": "Čekající",
+                    "refunded": "Vráceno"
+                }
+            },
+            "character": {
+                "title": "Nastavení postavy",
+                "description": "Přizpůsobte si vzhled a preference své postavy.",
+                "music": {
+                    "title": "Hudební přehrávač",
+                    "description": "Přehrávejte hudbu na pozadí z YouTube.",
+                    "url_placeholder": "Zde vložte URL z YouTube...",
+                    "load": "Načíst",
+                    "delete": "Smazat",
+                    "no_track": "Žádná načtená skladba",
+                    "enter_url": "Zadejte URL z YouTube"
+                },
+                "partner": {
+                    "title": "Partnerská postava",
+                    "description": "Spravujte svou partnerskou postavu.",
+                    "button": "Smazat partnera"
+                },
+                "height": {
+                    "title": "Výška postavy",
+                    "description": "Nastavte výšku postavy. Tato změna je trvalá!",
+                    "required": "Vyžadováno nastavení"
+                },
+                "backstory": {
+                    "title": "Příběh postavy",
+                    "description": "Napište příběh své postavy. Zobrazí se na kartě postavy.",
+                    "placeholder": "Napište příběh své postavy...",
+                    "save": "Uložit příběh",
+                    "required": "Vyžadováno napsání"
+                },
+                "badge": {
+                    "title": "Vlastní odznak",
+                    "description": "Vytvořte si vlastní odznak s emoji a textem.",
+                    "emoji_label": "Vybrat Emoji",
+                    "text_label": "Text odznaku",
+                    "text_placeholder": "Zadejte text...",
+                    "preview_placeholder": "Váš odznak",
+                    "save": "Uložit odznak"
+                }
+            },
+            "reset": {
+                "title": "Resetovat nastavení",
+                "description": "Vrátit všechna nastavení na výchozí hodnoty.",
+                "confirm": "Ano, resetovat nastavení",
+                "cancel": "Zrušit"
+            }
+        },
+        "zod": {
+            "firstname": {
+                "min": "Jméno musí mít alespoň %s znaků",
+                "max": "Jméno může mít maximálně %s znaků",
+                "required": "Jméno je povinné",
+                "regex": "Jsou povolena pouze písmena"
+            },
+            "lastname": {
+                "min": "Příjmení musí mít alespoň %s znaků",
+                "max": "Příjmení může mít maximálně %s znaků",
+                "required": "Příjmení je povinné",
+                "regex": "Jsou povolena pouze písmena"
+            },
+            "birthdate": {
+                "required": "Datum narození je povinné",
+                "invalid": "Neplatné datum",
+                "age": "Musíte být starší 18 let"
+            },
+            "gender": {
+                "required": "Pohlaví je povinné",
+                "regex": "Speciální znaky nejsou povoleny"
+            },
+            "nationality": {
+                "required": "Národnost je povinná",
+                "regex": "Speciální znaky nejsou povoleny"
+            },
+            "backstory": {
+                "min": "Příběh musí mít alespoň %s znaků",
+                "max": "Příběh může mít maximálně %s znaků"
+            },
+            "redeem": {
+                "regex": "Kód obsahuje neplatné znaky"
+            }
+        },
+        "newCharacter": {
+            "welcome": "Vítej,",
+            "stranger": "Cizinče",
+            "description": "Vytvoř novou postavu a začni své dobrodružství. Tvůj osud čeká!"
+        }
+    },
+    "redeem": {
+        "error": {
+            "invalid_transaction_id": "Neplatné ID transakce.",
+            "transaction_not_found_or_already_claimed": "Transakce nebyla nalezena nebo již byla uplatněna.",
+            "rate_limited": "Příliš mnoho pokusů. Zkuste to prosím znovu později. Zbývající čas: %s"
+        },
+        "success": "Kód byl úspěšně uplatněn"
+    },
+    "partnerInvite": {
+        "title": "Pozvánka do partnerství",
+        "description": "Obdrželi jste pozvánku k partnerství od %s. Přijetím se stanete partnery s touto osobou.",
+        "accept": "Přijmout",
+        "decline": "Odmítnout",
+        "accepted": "%s přijal pozvánku k partnerství.",
+        "declined": "%s odmítl pozvánku k partnerství.",
+        "invite_sent": "Pozvánka k partnerství odeslána.",
+        "couple": "Pár",
+        "best_friend": "Nejlepší Přítel"
+    }
+}
